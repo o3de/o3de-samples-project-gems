@@ -1,0 +1,430 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_building_05",
+        "Components": {
+            "Component_[10260180881667106982]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10260180881667106982
+            },
+            "Component_[13569815449555111105]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13569815449555111105
+            },
+            "Component_[14642034071831243983]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14642034071831243983
+            },
+            "Component_[15072050616350441527]": {
+                "$type": "EditorLockComponent",
+                "Id": 15072050616350441527
+            },
+            "Component_[15634101981565829077]": {
+                "$type": "SelectionComponent",
+                "Id": 15634101981565829077
+            },
+            "Component_[1572067506598820522]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1572067506598820522,
+                "Parent Entity": ""
+            },
+            "Component_[1660057820927880211]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1660057820927880211
+            },
+            "Component_[16660751596419083363]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16660751596419083363
+            },
+            "Component_[5210703898025038382]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5210703898025038382
+            },
+            "Component_[7706440304716453491]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7706440304716453491,
+                "Child Entity Order": [
+                    "Entity_[17584132741015]"
+                ]
+            },
+            "Component_[9827334875022642836]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9827334875022642836
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[17584132741015]": {
+            "Id": "Entity_[17584132741015]",
+            "Name": "paris_building_05",
+            "Components": {
+                "Component_[11915560120046610433]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11915560120046610433
+                },
+                "Component_[1325278431429972835]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1325278431429972835
+                },
+                "Component_[14426584773281450180]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14426584773281450180
+                },
+                "Component_[15561792053594152358]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15561792053594152358
+                },
+                "Component_[16182659449282262216]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16182659449282262216
+                },
+                "Component_[16251902580065220912]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16251902580065220912,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7869149852919997469
+                        },
+                        {
+                            "ComponentId": 2349869886313279449,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7629211067256098359,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2349869886313279449]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2349869886313279449,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{463AF784-7663-5557-A2E6-7A666CEC1978}",
+                                    "subId": 273327418
+                                },
+                                "assetHint": "exterior/buildings/paris_building_05.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2636299322881979641]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2636299322881979641
+                },
+                "Component_[4390207174107026337]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4390207174107026337
+                },
+                "Component_[5377289824742018995]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5377289824742018995
+                },
+                "Component_[7629211067256098359]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7629211067256098359,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 596942770
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C2DC5785-DECD-5FBB-8136-833A8CF69648}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_building_detailsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 784859363
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FEF94399-B923-5778-A8C6-B6DF76FAB0D6}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_concrete_plaster1mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 812621648
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AC4C484E-3C03-5E29-81D3-8F20974DDFD4}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_wood_painted3mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 918132315
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CE14C54A-465A-5CAE-B8E2-6B6389501F09}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_forge_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1313162308
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{185690EE-2CD8-55B0-B62B-94A5C8B32BEA}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_plasticmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1470896090
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B1B489D4-0E45-5B15-8BCB-86CD8B7BE765}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_frosted_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1643030921
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AC89DFCE-963E-535C-A74C-6FAC0EC619C8}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_concretemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1964869491
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{769BE2BD-2831-5EE7-AEF3-FD26FD34EC88}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_concrete_whitemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2559066509
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{634C59CB-6211-55F5-91C2-868EF1EBAB85}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_awning_fabric_redmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2801885284
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{48801CA1-3C9A-5036-B84E-7A065B186C99}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_wood_brownmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2914024398
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{74FE076E-4CDA-559A-9785-C27A841F1185}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_book_coversmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3033070933
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0B7B454E-A2C9-509F-BB3F-BA1FF5CD77C9}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_doorsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3067473772
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8F60978F-9B0B-50A6-B150-65469C8C849D}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_wood_painted_greenmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3226861309
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8A706F7E-01D8-5ECF-B8BD-BFD6CE20908B}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_bronzemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3365561322
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9537B57-9442-503A-9E9F-30334ADF0D4A}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_grain_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3481094248
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D387B38B-F76B-5E18-9158-9812DB42CD86}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_awning_beamsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3541349825
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3E1DBEA9-C207-5A04-B26C-05066D938069}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_black_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3915183881
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D4B48DAF-4280-5665-AC74-77A7F31C494A}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_curtainsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4135859542
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC10595A-9246-50B3-896A-4080F2C6EDF0}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_concrete_smoothmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4209105744
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{27EB84F5-E47D-592A-8A0A-07B17374D3D8}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_roofing_shingle_greymat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4214132375
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BA7354E8-705E-5C53-A312-688279F05052}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4284319405
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DC50F304-AFB0-5E51-82CA-3D125B89D396}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_05_master_concrete_groovedmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7869149852919997469]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7869149852919997469,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                }
+            }
+        }
+    }
+}

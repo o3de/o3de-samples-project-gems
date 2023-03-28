@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "textures/Awnings_Fabric_0_BaseColor.png"
+        },
+        "subsurfaceScattering": {
+            "enableSubsurfaceScattering": true,
+            "scatterColor": [
+                0.9096513390541077,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "transmissionMode": "ThinObject"
+        }
+    }
+}

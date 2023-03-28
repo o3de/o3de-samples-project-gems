@@ -1,0 +1,48 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/MASTER_Glass_Dirty_0_BaseColor.png"
+        },
+        "clearCoat": {
+            "enable": true,
+            "factor": 0.25999999046325684
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "textures/MASTER_Glass_Dirty_0_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "textures/MASTER_Glass_Dirty_0_Normal.png"
+        },
+        "opacity": {
+            "alphaAffectsSpecular": 0.3499999940395355,
+            "alphaSource": "Split",
+            "factor": 0.5799999833106995,
+            "mode": "TintedTransparent",
+            "textureMap": "textures/MASTER_Glass_Dirty_0_Opacity.png"
+        },
+        "roughness": {
+            "textureMap": "textures/MASTER_Glass_Dirty_0_Roughness.png"
+        },
+        "specularF0": {
+            "factor": 0.4099999964237213
+        }
+    }
+}

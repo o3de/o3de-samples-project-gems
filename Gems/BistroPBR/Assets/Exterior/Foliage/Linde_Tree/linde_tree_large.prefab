@@ -1,0 +1,183 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "linde_tree_large",
+        "Components": {
+            "Component_[11397081990542940574]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11397081990542940574,
+                "Child Entity Order": [
+                    "Entity_[889594861463]"
+                ]
+            },
+            "Component_[11685979312446362705]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11685979312446362705
+            },
+            "Component_[13938681846752397461]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13938681846752397461
+            },
+            "Component_[14125709561775140951]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14125709561775140951
+            },
+            "Component_[14520901641078535206]": {
+                "$type": "EditorLockComponent",
+                "Id": 14520901641078535206
+            },
+            "Component_[17241259754215177793]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17241259754215177793,
+                "Parent Entity": ""
+            },
+            "Component_[1808870332465803577]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1808870332465803577
+            },
+            "Component_[3649909872365444459]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3649909872365444459
+            },
+            "Component_[4211219672253056586]": {
+                "$type": "SelectionComponent",
+                "Id": 4211219672253056586
+            },
+            "Component_[4712168699821005321]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4712168699821005321
+            },
+            "Component_[7334675225434305709]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7334675225434305709
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[889594861463]": {
+            "Id": "Entity_[889594861463]",
+            "Name": "linde_tree_large",
+            "Components": {
+                "Component_[15236380655592729606]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15236380655592729606,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 482125613
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{54017C41-F36A-57EF-9664-9F2FE2ADF6AA}"
+                                            },
+                                            "assetHint": "exterior/foliage/linde_tree/linde_tree_large_foliage_linde_tree_large_green_leavesmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1504319966
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7AA961A4-A608-56A9-A09B-8840E7332465}"
+                                            },
+                                            "assetHint": "exterior/foliage/linde_tree/linde_tree_large_foliage_linde_tree_large_orange_leavesmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3080634570
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{620ACCCA-00B5-5FA6-B316-14F207AF07AD}"
+                                            },
+                                            "assetHint": "exterior/foliage/linde_tree/linde_tree_large_foliage_linde_tree_large_trunkmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16063637694011097642]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16063637694011097642
+                },
+                "Component_[17867411328862847744]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17867411328862847744,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[2660580540005928257]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2660580540005928257
+                },
+                "Component_[3109086993930825635]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3109086993930825635,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17867411328862847744
+                        },
+                        {
+                            "ComponentId": 7646278531635821603,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15236380655592729606,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4290594983365409172]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4290594983365409172
+                },
+                "Component_[7646278531635821603]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7646278531635821603,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D86A5DC4-D6D8-58F1-B9F6-8E1876A7BF7D}",
+                                    "subId": 281835680
+                                },
+                                "assetHint": "exterior/foliage/linde_tree/linde_tree_large.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7980649585729146595]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7980649585729146595
+                },
+                "Component_[8263857723752700257]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8263857723752700257
+                },
+                "Component_[8576078057979968118]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8576078057979968118
+                },
+                "Component_[9079274244877897663]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9079274244877897663
+                },
+                "Component_[9841574777338874634]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9841574777338874634
+                }
+            }
+        }
+    }
+}

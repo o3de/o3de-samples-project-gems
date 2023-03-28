@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/MASTER_Curtains_0_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.880643904209137,
+                0.8719462752342224,
+                0.8719462752342224,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 5.0,
+            "textureMap": "textures/MASTER_Curtains_0_Emissive.png"
+        },
+        "normal": {
+            "textureMap": "textures/MASTER_Curtains_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

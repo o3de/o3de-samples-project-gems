@@ -1,0 +1,513 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_foliage",
+        "Components": {
+            "Component_[10397887682448195825]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10397887682448195825
+            },
+            "Component_[10401692233658758177]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10401692233658758177
+            },
+            "Component_[12918816476411877225]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12918816476411877225
+            },
+            "Component_[12934791206855346396]": {
+                "$type": "EditorLockComponent",
+                "Id": 12934791206855346396
+            },
+            "Component_[16823665200653414543]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16823665200653414543
+            },
+            "Component_[17533781993396014289]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17533781993396014289
+            },
+            "Component_[17789313016605478499]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17789313016605478499,
+                "Parent Entity": ""
+            },
+            "Component_[9177273927446919780]": {
+                "$type": "SelectionComponent",
+                "Id": 9177273927446919780
+            },
+            "Component_[9689630081699285977]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9689630081699285977
+            },
+            "Component_[9803475069173022554]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9803475069173022554
+            },
+            "Component_[9878278347274732172]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9878278347274732172,
+                "Child Entity Order": [
+                    "Entity_[2014876293015]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2014876293015]": {
+            "Id": "Entity_[2014876293015]",
+            "Name": "paris_foliage",
+            "Components": {
+                "Component_[11562923406733208692]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11562923406733208692
+                },
+                "Component_[13695630174930153679]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13695630174930153679
+                },
+                "Component_[13934781985164657065]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13934781985164657065
+                },
+                "Component_[14591237823884487573]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14591237823884487573
+                },
+                "Component_[1638102062494684251]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1638102062494684251,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1108509558
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{160A57AA-511A-538C-BCD0-BC14163DA56A}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_ivy_branchesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.17000000178813934
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.16437017917633057,
+                                                    0.07000838965177536,
+                                                    0.004318303428590298,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1360319331
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{072E3A22-6907-5449-9324-2AE670D87188}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_leavesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "specularF0.enableMultiScatterCompensation": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.440000057220459
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6200000047683716
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.1599999964237213
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{6601440B-7201-58DF-9799-DDE3913639B6}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/foliage_leaves_0_opacity.png.streamingimage"
+                                                }
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.21121537685394287,
+                                                    1.0,
+                                                    0.004577706567943096,
+                                                    1.0
+                                                ]
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4000000059604645
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1794092199
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{459A314C-88E1-58F2-9780-5B20D4747738}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_paris_flowersmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.10999999940395355
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{6777E53A-F17C-5936-8D98-E8435936A817}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/foliage_flowers_0_opacity.png.streamingimage"
+                                                }
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.17193865776062012,
+                                                    0.880643904209137,
+                                                    0.018371863290667534,
+                                                    1.0
+                                                ]
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1866822873
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{66429D91-5655-5797-A5B8-C19F6D68B3B4}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_bux_hedges46mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7099999785423279
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.18000000715255737
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{226E4BB4-7A8D-577D-8A33-2E346349C8B3}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/foliage_bux_hedges46_0_opacity.png.streamingimage"
+                                                }
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3700000047683716
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2883321410
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E14C5D64-2E9F-50D6-A69F-BB28772ABF35}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_ivy_leaf_amat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.1399999856948853
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{6BCB5B5C-52A7-57F2-B6A5-514D5DA27CB8}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/foliage_ivy_leaf_a_0_opacity.png.streamingimage"
+                                                }
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.07324330508708954,
+                                                    1.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.699999988079071
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.20999999344348907
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.46000000834465027
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3038331809
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6C862E7E-0CAA-5462-B0DF-CC177619C726}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_flowersmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{6777E53A-F17C-5936-8D98-E8435936A817}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/foliage_flowers_0_opacity.png.streamingimage"
+                                                }
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.15585565567016602,
+                                                    0.8950789570808411,
+                                                    0.035629816353321075,
+                                                    1.0
+                                                ]
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6200000047683716
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.1599999964237213
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3625509862
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C132115-EA1E-5CF6-BFCD-8D1123A49461}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_foliage_trunkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3695184987
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E721F7D8-FBB5-56B2-AD11-C9FA9E69E3B0}"
+                                            },
+                                            "assetHint": "exterior/foliage/building_foliage/paris_foliage_plantpotsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4300000071525574
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2146351011233539136]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2146351011233539136,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[2530676240009007616]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2530676240009007616
+                },
+                "Component_[3540067859605138601]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3540067859605138601,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8A4956BE-8B42-5DA0-8791-B60ACADF05DD}",
+                                    "subId": 280686502
+                                },
+                                "assetHint": "exterior/foliage/building_foliage/paris_foliage.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[569509737568907851]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 569509737568907851
+                },
+                "Component_[7251960057164043082]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7251960057164043082
+                },
+                "Component_[8048347163842076957]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8048347163842076957
+                },
+                "Component_[878146867464130867]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 878146867464130867,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2146351011233539136
+                        },
+                        {
+                            "ComponentId": 3540067859605138601,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1638102062494684251,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

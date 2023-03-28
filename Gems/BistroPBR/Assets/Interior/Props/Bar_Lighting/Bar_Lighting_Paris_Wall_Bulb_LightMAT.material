@@ -1,0 +1,27 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/Paris_Wall_Bulb_Light_0_BaseColor.png"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": 6.099999904632568
+        },
+        "normal": {
+            "textureMap": "textures/Paris_Wall_Bulb_Light_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

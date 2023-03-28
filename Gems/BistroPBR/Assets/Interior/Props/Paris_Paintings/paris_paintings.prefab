@@ -1,0 +1,229 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_paintings",
+        "Components": {
+            "Component_[12386720091814927380]": {
+                "$type": "SelectionComponent",
+                "Id": 12386720091814927380
+            },
+            "Component_[13148255492670015961]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13148255492670015961
+            },
+            "Component_[17136150647068680988]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17136150647068680988,
+                "Parent Entity": ""
+            },
+            "Component_[4080668866113931353]": {
+                "$type": "EditorLockComponent",
+                "Id": 4080668866113931353
+            },
+            "Component_[4469519517156706214]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4469519517156706214
+            },
+            "Component_[5120124744996216843]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5120124744996216843
+            },
+            "Component_[5344610544505732071]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5344610544505732071
+            },
+            "Component_[5564495248751610985]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5564495248751610985,
+                "Child Entity Order": [
+                    "Entity_[10455454254124]"
+                ]
+            },
+            "Component_[560801654767627382]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 560801654767627382
+            },
+            "Component_[8580168842176191172]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8580168842176191172
+            },
+            "Component_[9964217704803415716]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9964217704803415716
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[10455454254124]": {
+            "Id": "Entity_[10455454254124]",
+            "Name": "paris_paintings",
+            "Components": {
+                "Component_[11759650254652412043]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11759650254652412043,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[15892757099577188388]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15892757099577188388
+                },
+                "Component_[16405370482418468308]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16405370482418468308,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B152BE2E-FE3F-55E7-9811-A5116FDD80E9}",
+                                    "subId": 275120339
+                                },
+                                "assetHint": "interior/props/paris_paintings/paris_paintings.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17057651000479673801]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17057651000479673801
+                },
+                "Component_[17939722647817655576]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17939722647817655576,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3228100757
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2EB11C6E-9017-5D6B-BCB2-C780EA223F3E}"
+                                            },
+                                            "assetHint": "interior/props/paris_paintings/paris_paintings_paris_painting_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3437219273
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C7FE60C9-8526-5034-B917-503A5D80D1CE}"
+                                            },
+                                            "assetHint": "interior/props/paris_paintings/paris_paintings_paris_paintingsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4095297747
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{302E9FB2-6EA8-5D1E-A429-05E3245013A6}"
+                                            },
+                                            "assetHint": "interior/props/paris_paintings/paris_paintings_paris_paintings_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.20999999344348907
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.12999999523162842
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18425292745712018817]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18425292745712018817
+                },
+                "Component_[2286743934532586016]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2286743934532586016
+                },
+                "Component_[2404719742548780369]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2404719742548780369,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11759650254652412043
+                        },
+                        {
+                            "ComponentId": 16405370482418468308,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17939722647817655576,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[265230486675053247]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 265230486675053247
+                },
+                "Component_[326494272849535262]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 326494272849535262
+                },
+                "Component_[4289613456522681057]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4289613456522681057
+                },
+                "Component_[7505784041100082504]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7505784041100082504
+                }
+            }
+        }
+    }
+}
