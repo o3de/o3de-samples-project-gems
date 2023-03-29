@@ -1,0 +1,170 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_building_06",
+        "Components": {
+            "Component_[11060389331988245669]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11060389331988245669,
+                "Parent Entity": ""
+            },
+            "Component_[12803735218607029677]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12803735218607029677,
+                "Child Entity Order": [
+                    "Entity_[14624900274071]"
+                ]
+            },
+            "Component_[13167183339394786286]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13167183339394786286
+            },
+            "Component_[13815095451320698912]": {
+                "$type": "EditorLockComponent",
+                "Id": 13815095451320698912
+            },
+            "Component_[13965741105626941523]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13965741105626941523
+            },
+            "Component_[14180985387371881231]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14180985387371881231
+            },
+            "Component_[14630873505402630525]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14630873505402630525
+            },
+            "Component_[15909099336437934107]": {
+                "$type": "SelectionComponent",
+                "Id": 15909099336437934107
+            },
+            "Component_[3712497140333251655]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3712497140333251655
+            },
+            "Component_[4139203932501183668]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4139203932501183668
+            },
+            "Component_[4839073172318081492]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4839073172318081492
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[14624900274071]": {
+            "Id": "Entity_[14624900274071]",
+            "Name": "paris_building_06",
+            "Components": {
+                "Component_[10148291974537675748]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10148291974537675748,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1A39F9D1-830E-5617-9521-1EC85A29AA99}",
+                                    "subId": 272888960
+                                },
+                                "assetHint": "exterior/buildings/paris_building_06.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[10462649313244788169]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10462649313244788169
+                },
+                "Component_[1075425946367602590]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1075425946367602590
+                },
+                "Component_[12642514560598501078]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12642514560598501078
+                },
+                "Component_[12789492123829469987]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12789492123829469987
+                },
+                "Component_[13486680714076294306]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13486680714076294306,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[17168309590072923915]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17168309590072923915
+                },
+                "Component_[17630236629894537936]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17630236629894537936
+                },
+                "Component_[2678499219747179485]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2678499219747179485
+                },
+                "Component_[3440519403780251592]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3440519403780251592
+                },
+                "Component_[4655331685234636043]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4655331685234636043,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13486680714076294306
+                        },
+                        {
+                            "ComponentId": 10148291974537675748,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5866255158015701802,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5866255158015701802]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5866255158015701802,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1476652394
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1C51C7D3-F98A-5810-B4C3-1B4A6E1F2A0C}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_06_master_brick_small_redmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1643030921
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0CFAF640-F949-5BB2-B524-94FC71631CE0}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_building_06_master_concretemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

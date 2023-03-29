@@ -1,0 +1,47 @@
+{
+    "project_name": "BistroPBR",
+    "version": "1.0.0",
+    "project_id": "{31AD8D1F-3198-479B-AF86-5F9D670A0FFF}",
+    "origin": "The primary repo for BistroPBR goes here: i.e. http://www.mydomain.com",
+    "license": "What license BistroPBR uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "BistroPBR",
+    "summary": "A short description of BistroPBR.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "BistroPBR"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "BistroPBR",
+    "gem_names": [
+        "BistroPBR",
+        "Atom",
+        "AudioSystem",
+        "AWSCore",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox"
+    ],
+    "engine_version": "1.2.0"
+}

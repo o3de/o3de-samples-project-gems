@@ -1,0 +1,207 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_bistrofrontbanner",
+        "Components": {
+            "Component_[10344820331542908347]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10344820331542908347
+            },
+            "Component_[12234615035496172375]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12234615035496172375
+            },
+            "Component_[13328865696576243320]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13328865696576243320,
+                "Parent Entity": ""
+            },
+            "Component_[15620338083882442192]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15620338083882442192
+            },
+            "Component_[16752858837782368709]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16752858837782368709
+            },
+            "Component_[2161537570012934195]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2161537570012934195
+            },
+            "Component_[2185078056940837284]": {
+                "$type": "EditorLockComponent",
+                "Id": 2185078056940837284
+            },
+            "Component_[2408261023996816796]": {
+                "$type": "SelectionComponent",
+                "Id": 2408261023996816796
+            },
+            "Component_[485344353042786395]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 485344353042786395
+            },
+            "Component_[4922684650029221072]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4922684650029221072,
+                "Child Entity Order": [
+                    "Entity_[35884988389271]"
+                ]
+            },
+            "Component_[5429407081330109754]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5429407081330109754
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[35884988389271]": {
+            "Id": "Entity_[35884988389271]",
+            "Name": "paris_bistrofrontbanner",
+            "Components": {
+                "Component_[10136353038345552829]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10136353038345552829
+                },
+                "Component_[10517106587335030223]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10517106587335030223
+                },
+                "Component_[12101025958457758895]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12101025958457758895,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 370607065
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{954E2FA3-A7D5-54E0-88B1-6093E404C583}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_bistrofrontbanner_banner_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 504977299
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CBC36FA8-C732-5B84-9C65-029DFA0BEF9F}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_bistrofrontbanner_bistro_sign_lettersmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.2874341905117035,
+                                                    0.6375982165336609,
+                                                    0.06480506807565689,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.11543449759483337,
+                                                    1.0,
+                                                    0.005020218435674906,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2994079856
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{25EBB238-7DD4-5954-8F9D-F4EF0BA944B3}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_bistrofrontbanner_bistro_sign_mainmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17086732930566334396]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17086732930566334396
+                },
+                "Component_[1797179677053336266]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1797179677053336266
+                },
+                "Component_[36013523364192611]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 36013523364192611
+                },
+                "Component_[368789483055699530]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 368789483055699530
+                },
+                "Component_[3743018976526171230]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3743018976526171230,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{51F5480F-749C-5C5F-A030-5742DB52659C}",
+                                    "subId": 269304137
+                                },
+                                "assetHint": "exterior/buildings/paris_bistrofrontbanner.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7084133256502362326]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7084133256502362326,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[754073534924296693]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 754073534924296693
+                },
+                "Component_[8520753595825053495]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8520753595825053495
+                },
+                "Component_[9411514164202795168]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9411514164202795168,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7084133256502362326
+                        },
+                        {
+                            "ComponentId": 3743018976526171230,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12101025958457758895,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

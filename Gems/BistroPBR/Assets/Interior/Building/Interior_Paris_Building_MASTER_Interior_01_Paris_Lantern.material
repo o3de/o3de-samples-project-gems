@@ -1,0 +1,39 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/Lantern_0_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                0.8900129795074463,
+                0.0,
+                1.0
+            ],
+            "enable": true,
+            "textureMap": "textures/Lantern_0_Emissive.png"
+        },
+        "metallic": {
+            "factor": 1.0
+        },
+        "normal": {
+            "textureMap": "textures/Lantern_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.5099999904632568
+        }
+    }
+}

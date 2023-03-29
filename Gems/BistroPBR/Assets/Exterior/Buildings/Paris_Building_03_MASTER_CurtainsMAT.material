@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/MASTER_Curtains_0_BaseColor.png"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": 5.0,
+            "textureMap": "textures/MASTER_Curtains_0_Emissive.png"
+        },
+        "normal": {
+            "textureMap": "textures/MASTER_Curtains_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "interior_curtains",
+        "Components": {
+            "Component_[1113844146568387594]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1113844146568387594
+            },
+            "Component_[11184971344609174299]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11184971344609174299
+            },
+            "Component_[12154634415614562974]": {
+                "$type": "SelectionComponent",
+                "Id": 12154634415614562974
+            },
+            "Component_[14705773683163732633]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14705773683163732633,
+                "Child Entity Order": [
+                    "Entity_[9244273476652]"
+                ]
+            },
+            "Component_[15964722091188052438]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15964722091188052438
+            },
+            "Component_[3960251595520708576]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3960251595520708576
+            },
+            "Component_[4380818361196455799]": {
+                "$type": "EditorLockComponent",
+                "Id": 4380818361196455799
+            },
+            "Component_[4890069176431307555]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4890069176431307555
+            },
+            "Component_[5335765772478986152]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5335765772478986152,
+                "Parent Entity": ""
+            },
+            "Component_[7580674803891160058]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7580674803891160058
+            },
+            "Component_[9924476536821942300]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9924476536821942300
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[9244273476652]": {
+            "Id": "Entity_[9244273476652]",
+            "Name": "interior_curtains",
+            "Components": {
+                "Component_[10328708135226737893]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10328708135226737893
+                },
+                "Component_[14120849266474975111]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14120849266474975111,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[14919381843586753339]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14919381843586753339
+                },
+                "Component_[15504665203503897868]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15504665203503897868
+                },
+                "Component_[16506180608770614617]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16506180608770614617
+                },
+                "Component_[17089110602545392696]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17089110602545392696
+                },
+                "Component_[1834956995567426512]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1834956995567426512,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3303952145
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FDFDAC5C-3B2F-50A4-BEBE-BD8D162FE4FA}"
+                                            },
+                                            "assetHint": "interior/props/interior_curtains/interior_curtains_curtainamat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4263890099
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3C016E5C-7C7C-5177-A0CE-10A8E0CC9673}"
+                                            },
+                                            "assetHint": "interior/props/interior_curtains/interior_curtains_curtainb1mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[28285030652026830]": {
+                    "$type": "SelectionComponent",
+                    "Id": 28285030652026830
+                },
+                "Component_[3491209352186729377]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3491209352186729377
+                },
+                "Component_[3680464869480402318]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3680464869480402318
+                },
+                "Component_[4795699085768829474]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4795699085768829474,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C06BB2C9-8622-58E9-A4FA-0C32FC7764B1}",
+                                    "subId": 275485972
+                                },
+                                "assetHint": "interior/props/interior_curtains/interior_curtains.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6487454379363776904]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6487454379363776904,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14120849266474975111
+                        },
+                        {
+                            "ComponentId": 4795699085768829474,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1834956995567426512,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

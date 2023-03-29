@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_bollards",
+        "Components": {
+            "Component_[10152767343426213458]": {
+                "$type": "SelectionComponent",
+                "Id": 10152767343426213458
+            },
+            "Component_[11141661288277002521]": {
+                "$type": "EditorLockComponent",
+                "Id": 11141661288277002521
+            },
+            "Component_[13488574947218527588]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13488574947218527588
+            },
+            "Component_[1391988948825161425]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1391988948825161425
+            },
+            "Component_[4430650571036347875]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4430650571036347875,
+                "Child Entity Order": [
+                    "Entity_[31800474490775]"
+                ]
+            },
+            "Component_[4909565298916891526]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4909565298916891526
+            },
+            "Component_[5959360057287234621]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5959360057287234621
+            },
+            "Component_[6201229428364952050]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6201229428364952050
+            },
+            "Component_[6454800593397490259]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6454800593397490259
+            },
+            "Component_[7150097697295183310]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7150097697295183310,
+                "Parent Entity": ""
+            },
+            "Component_[8100843643044877545]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8100843643044877545
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[31800474490775]": {
+            "Id": "Entity_[31800474490775]",
+            "Name": "paris_bollards",
+            "Components": {
+                "Component_[10578929794852705628]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10578929794852705628,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[12415752030211488622]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12415752030211488622,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10578929794852705628
+                        },
+                        {
+                            "ComponentId": 4667695767854414347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2672556592279808388,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13588519805023142831]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13588519805023142831
+                },
+                "Component_[16581978888100578719]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16581978888100578719
+                },
+                "Component_[17642615620027536944]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17642615620027536944
+                },
+                "Component_[2672556592279808388]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2672556592279808388,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1065224238
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B6AF7D96-AA0C-57ED-88F3-B4B35243EB37}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_bollards_bollardsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4363167915956136222]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4363167915956136222
+                },
+                "Component_[4667695767854414347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4667695767854414347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{57E431DE-72CE-52A4-93E7-DCCF03BE2871}",
+                                    "subId": 276472425
+                                },
+                                "assetHint": "exterior/buildings/paris_bollards.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5247213214528266044]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5247213214528266044
+                },
+                "Component_[7437659847077692699]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7437659847077692699
+                },
+                "Component_[9345140714010686344]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9345140714010686344
+                },
+                "Component_[9863841896576608228]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9863841896576608228
+                }
+            }
+        }
+    }
+}

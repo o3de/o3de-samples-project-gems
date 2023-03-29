@@ -1,0 +1,708 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_street_pavment",
+        "Components": {
+            "Component_[10729081325204925452]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10729081325204925452
+            },
+            "Component_[12225432025994191215]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12225432025994191215
+            },
+            "Component_[15158906568350254017]": {
+                "$type": "SelectionComponent",
+                "Id": 15158906568350254017
+            },
+            "Component_[15424294127691199757]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15424294127691199757,
+                "Child Entity Order": [
+                    "Entity_[2639065195263]"
+                ]
+            },
+            "Component_[16342653399714434176]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16342653399714434176
+            },
+            "Component_[16724377019340955537]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16724377019340955537,
+                "Parent Entity": ""
+            },
+            "Component_[17527419540879779797]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17527419540879779797
+            },
+            "Component_[3228615021318056095]": {
+                "$type": "EditorLockComponent",
+                "Id": 3228615021318056095
+            },
+            "Component_[5656510684293160685]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5656510684293160685
+            },
+            "Component_[7025746623502944984]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7025746623502944984
+            },
+            "Component_[7198602137184114806]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7198602137184114806
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2639065195263]": {
+            "Id": "Entity_[2639065195263]",
+            "Name": "paris_street_pavment",
+            "Components": {
+                "Component_[11630227808574796147]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11630227808574796147
+                },
+                "Component_[12153172976278782892]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12153172976278782892
+                },
+                "Component_[12493940355500587294]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12493940355500587294
+                },
+                "Component_[1307135219308505975]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1307135219308505975,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[15092735539437334637]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15092735539437334637,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1307135219308505975
+                        },
+                        {
+                            "ComponentId": 4746498405056420617,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16676028489964529417,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15139240771444683466]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15139240771444683466
+                },
+                "Component_[16676028489964529417]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16676028489964529417,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 414384330
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3692ADD2-D62E-5C15-9647-56112EA0286E}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_curbstonesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{53DC0B13-A38D-5F63-BF13-1B9430F5002F}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_curbstones_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{972947A4-A5CC-5D72-B614-78800068D7E0}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_curbstones_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{21157A5A-0078-5A4F-8A33-93DC6F0A32FC}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_curbstones_0_height.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 612513284
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{81EB2A38-2400-5DA1-B446-E525437E7797}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_cobblestone_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{BF3C1D25-0942-5F51-990C-7A161CB01866}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_01_blendshader_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{CFA23EB4-CD86-591E-B16C-1B5337E25FB5}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_01_blendshader_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{C745B931-930F-58AC-A9DE-DE98C1AE526C}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_01_blendshader_0_height.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1266346583
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{345A77A5-7227-5477-92AB-7492AD2809EB}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_cobblestone_big_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{6BCB5CEF-B4C1-5AC6-B44A-D81BA8C3FFAC}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_big_blendshader_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{201C58C6-A81C-55A2-BD76-20636E6AC9EF}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_big_blendshader_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{4398B7F3-4112-5B9A-937F-E90F588D3B73}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_big_blendshader_0_height.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2556460023
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E1CD049D-E2DD-5D53-A0CF-95968ACE27DF}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_brickmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{CEF4258E-ECAF-5286-B361-255854A263AF}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_brick_blendshader_0_height.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.factor": {
+                                                "$type": "float",
+                                                "Value": 0.06199999898672104
+                                            },
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.100000023841858
+                                            },
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.5969329476356506,
+                                                    0.5969329476356506,
+                                                    0.5969329476356506,
+                                                    1.0
+                                                ]
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{EED0F269-BA97-5C64-908F-22A896CE7BEE}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_brick_blendshader_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{9720BCE5-4DDB-55A8-A447-A3D0B71D27C8}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_brick_blendshader_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2636027864
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{64FD0D8E-CD5E-56DE-A851-6A4E7AFBF268}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_cobblestone_wet_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "»¿\u001E\tä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "@◊àÓä\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "Ä’àÓä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "uv.scale": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            " |>5ä\u0002": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "uv.rotateDegrees": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "HÀYcä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "\u0010òˆïä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "\u0010¬P1ä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "@⁄àÓä\u0002": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "default": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "uv.offsetU": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "uv.center": {
+                                                "$type": "Vector2",
+                                                "Value": [
+                                                    0.5,
+                                                    0.5
+                                                ]
+                                            },
+                                            "–lQ1ä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "òj\u001E\tä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "parallax.pdo": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "hS\u001E\tä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            " >{âä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "¿œ…àä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "parallax.algorithm": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            " ÿàÓä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "∞\u000E¶]ä\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "uv.tileU": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "\bk\u001E\tä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            " ¢Ë2ä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "uv.offsetV": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "parallax.showClipping": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "†◊àÓä\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "PA÷Óä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "ò\u001E\tä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "uv.tileV": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "parallax.quality": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "@EÅÓä\u0002": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            " æàÓä\u0002": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "‡Ò0.ä\u0002": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            " \u0011\u001E\tä\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2742928767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{11AA5ECA-51B9-572C-BEB0-5B39DDB298D1}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_paris_streetpivotmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3405674842
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4EFCB639-94E0-51C2-8109-A61017A5FEEC}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_cobblestone_small_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3669726844
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6AC2A6EB-2E64-5825-A60D-58A15CDD8603}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_ground_wetmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{0CA13047-06E9-51EB-9A83-35DEF1E75A31}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_ground_wet_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{8F1A0835-43B4-50AE-A023-CBCEA4BF1A88}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_ground_wet_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{713B6E13-3351-5CC3-B2D6-C4CC23B134F0}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_ground_wet_0_height.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3971170199
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9F04C3FB-5C16-5150-9C30-C92B5727A11B}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_cobblestone_wet_leaves_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.20999999344348907
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{D639A233-DB16-5C2F-BC9B-6B52E8EED9C3}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_wet_leaves_blendshader_0_height.png.streamingimage"
+                                                }
+                                            },
+                                            "baseColor.textureMapUv": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{7F3F9D84-E11C-51F0-B1CE-E360B4C0F9DB}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_wet_leaves_blendshader_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{35C46D5B-4670-582F-B24E-4B8F0DC6CD3E}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_cobblestone_wet_leaves_blendshader_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9399999976158142
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4183993780
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{839065D9-9F6F-5F72-950C-46BBE9A8723C}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavment_pavement_manhole_covermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{467B1D69-5D7A-5A4E-9C85-84E987800B37}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_manhole_cover_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{FB735E5B-11E9-5111-8D98-02F9225697F4}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_manhole_cover_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{2AC11946-A60C-52FA-B8A2-729D5D12692B}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/pavement_manhole_cover_0_height.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18034323183914431589]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18034323183914431589
+                },
+                "Component_[2448851408754844145]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2448851408754844145
+                },
+                "Component_[4746498405056420617]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4746498405056420617,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A0E5BB13-5BD2-5FF4-A0F1-4A5A0BF2853A}",
+                                    "subId": 269157173
+                                },
+                                "assetHint": "exterior/buildings/paris_street_pavment.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7355242231033851192]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7355242231033851192
+                },
+                "Component_[9789342958612898298]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9789342958612898298
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "interior_paris_building",
+        "Components": {
+            "Component_[10282279637247199061]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10282279637247199061
+            },
+            "Component_[1160566995415478802]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1160566995415478802
+            },
+            "Component_[12492189386186461403]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12492189386186461403
+            },
+            "Component_[12646078257812921145]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12646078257812921145
+            },
+            "Component_[1779958062265413874]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1779958062265413874,
+                "Child Entity Order": [
+                    "Entity_[1770716299490]"
+                ]
+            },
+            "Component_[18172183943921140743]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18172183943921140743
+            },
+            "Component_[5433753308488575083]": {
+                "$type": "EditorLockComponent",
+                "Id": 5433753308488575083
+            },
+            "Component_[6286919189854160773]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6286919189854160773
+            },
+            "Component_[7371520354987986903]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7371520354987986903,
+                "Parent Entity": ""
+            },
+            "Component_[8963053087865110090]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8963053087865110090
+            },
+            "Component_[947920564250022086]": {
+                "$type": "SelectionComponent",
+                "Id": 947920564250022086
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1770716299490]": {
+            "Id": "Entity_[1770716299490]",
+            "Name": "interior_paris_building",
+            "Components": {
+                "Component_[10303764901547960565]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10303764901547960565
+                },
+                "Component_[1302644576689876369]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1302644576689876369,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{FD2523D7-ABE0-5CBE-9FDA-CB312C7B5667}",
+                                    "subId": 279224411
+                                },
+                                "assetHint": "interior/building/interior_paris_building.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14139358969568845636]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14139358969568845636,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1510680002423065330
+                        },
+                        {
+                            "ComponentId": 1302644576689876369,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15578281489700270332,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14250842159897256273]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14250842159897256273
+                },
+                "Component_[14773918152078511129]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14773918152078511129
+                },
+                "Component_[1510680002423065330]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1510680002423065330,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15578281489700270332]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15578281489700270332,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 56314275
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CB8E1688-8FC7-57D0-B745-4DD5CEEF1BEA}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_wood.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 63035833
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FF31DE87-7E6C-5581-8C3F-0A85FF10F5BF}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_plaster2.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 404269195
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{114C031A-5255-518C-B00B-67D2E3F694ED}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_white_plastic.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.36000001430511475
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 459991221
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{195CFE87-63AC-56C3-BB27-5ED84FEF559F}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_paris_bartrim.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 812621648
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{347AA526-CF43-5F76-B012-4C63D75A88DD}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_wood_painted3mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1264961678
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{36EBF4CB-780B-5D66-B764-62EA512B36E2}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_floor_tile_hexagonalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1765414042
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0D092754-6F4C-5777-86BA-93D1C8145240}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_wooden_stuco.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2015493833
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{373F2478-BA8F-586D-A5FA-8860A5B19296}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_plaster.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2737420176
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1393E064-E3BD-59D6-8A5B-37DF211D1B02}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_gridmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2917694682
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FB757847-2FE7-5351-9195-1FD4299C291B}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_paris_lantern.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.099999904632568
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2953962107
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7AE02A85-F3F5-5D84-BB27-B5882509C4ED}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_plaster_red.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3609874345
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5FCBB199-BEBC-514D-94E9-6021055DB82C}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_brushed_metalmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3650953488
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{449DD160-C6A1-5FFF-B3D7-230A526274DB}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_grid1.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3968625164
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5C89BA2E-8788-5DDC-8294-BDD7719B0DEB}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01_frozen_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4288319889
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{34C29A1A-7D8C-5133-98CB-5B92EC1A6362}"
+                                            },
+                                            "assetHint": "interior/building/interior_paris_building_master_interior_01mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16305603660250838545]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16305603660250838545
+                },
+                "Component_[17255394032712985792]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17255394032712985792
+                },
+                "Component_[3380581540335473088]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3380581540335473088
+                },
+                "Component_[4089082368222933845]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4089082368222933845
+                },
+                "Component_[8084917621226124397]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8084917621226124397
+                }
+            }
+        }
+    }
+}

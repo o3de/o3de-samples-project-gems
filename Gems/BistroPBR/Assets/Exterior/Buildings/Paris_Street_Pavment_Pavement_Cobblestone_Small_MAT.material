@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/Pavement_Cobblestone_Bricks_Small_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "textures/Pavement_Cobblestone_Bricks_Small_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "textures/Pavement_Cobblestone_Bricks_Small_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "factor": 0.017999999225139618,
+            "textureMap": "textures/Pavement_Cobblestone_Bricks_Small_Height.png"
+        },
+        "roughness": {
+            "textureMap": "textures/Pavement_Cobblestone_Bricks_Small_Roughness.png"
+        }
+    }
+}

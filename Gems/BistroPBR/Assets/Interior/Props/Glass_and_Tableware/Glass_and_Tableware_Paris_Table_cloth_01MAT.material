@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.002346100052818656,
+                0.0003640000068116933,
+                0.08886469900608063,
+                1.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "textures/Paris_Table_cloth_01_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

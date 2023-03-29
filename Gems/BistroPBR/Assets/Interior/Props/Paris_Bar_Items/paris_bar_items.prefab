@@ -1,0 +1,453 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_bar_items",
+        "Components": {
+            "Component_[10452031567525180270]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10452031567525180270
+            },
+            "Component_[14066489270500778651]": {
+                "$type": "SelectionComponent",
+                "Id": 14066489270500778651
+            },
+            "Component_[14485562730450922723]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14485562730450922723,
+                "Parent Entity": ""
+            },
+            "Component_[16078828494079720842]": {
+                "$type": "EditorLockComponent",
+                "Id": 16078828494079720842
+            },
+            "Component_[17204866320198315059]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17204866320198315059
+            },
+            "Component_[2591170367316592493]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2591170367316592493
+            },
+            "Component_[2627895409126580871]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2627895409126580871
+            },
+            "Component_[3431823371441905774]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3431823371441905774
+            },
+            "Component_[4485359108946575515]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4485359108946575515
+            },
+            "Component_[5491602644579273402]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5491602644579273402,
+                "Child Entity Order": [
+                    "Entity_[9888518571052]"
+                ]
+            },
+            "Component_[8944545039110476494]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8944545039110476494
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[9888518571052]": {
+            "Id": "Entity_[9888518571052]",
+            "Name": "paris_bar_items",
+            "Components": {
+                "Component_[11220057334779409807]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11220057334779409807,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 45246559
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{79B02D1E-53F2-5C5E-B40E-1E652CBD8AA9}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_trolley_wheelsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.47999998927116394
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 286467203
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4736A7BA-5DBE-5676-A940-BA7296621A89}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_paris_doormatmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8399999737739563
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 483287483
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{047338FB-C08B-5854-B18A-B503F82CE40E}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_metal_chrome1mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3499999940395355
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 555454722
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{68331D06-E308-5CD1-B6DC-5D0E506A9DAC}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_trolley_plasticmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4699999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 884531657
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC721AA2-FB61-56C3-B2E5-0DF6A249221E}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_clothmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7699999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1326559185
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EB31E21F-2E82-5C1F-96F7-ECEC841FB6EE}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_trolley_wood_paintedmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7300000190734863
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1361718871
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CEEEF23D-43CF-56FC-B21F-18E71F94A342}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_paris_radiatormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7400000095367432
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1739849085
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2271BD25-8A8C-54C7-92C7-D64C6A968E56}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_plastic_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7200000286102295
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2035729473
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5698017C-9862-50BE-8CD3-22DF4211400F}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_metal_worn_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2745049622
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6F816EE6-1270-5EE0-AEF6-54887C5D93E3}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_woodmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "parallax.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{0AE6104B-4C3A-5F1F-9D0A-04E5E4A8CBEC}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/master_interior_01_wood_0_height.png.streamingimage"
+                                                }
+                                            },
+                                            "normal.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{E0E97099-83BA-52AA-A933-C2B743531D2D}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/master_interior_01_wood_0_normal.png.streamingimage"
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{D031A3BF-05DD-52B8-A7D6-4F53F1D55F48}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/master_interior_01_wood_0_roughness.png.streamingimage"
+                                                }
+                                            },
+                                            "metallic.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{7250F829-73CF-563A-A130-1258354DBE06}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/master_interior_01_wooden_stuco_0_metallic.png.streamingimage"
+                                                }
+                                            },
+                                            "baseColor.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{1E251CFB-E193-54D3-89AB-B6FEEAC82E00}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/master_interior_01_wooden_stuco_0_basecolor.png.streamingimage"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3075184792
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C52DB0BA-6399-52B2-9ED6-4BF5BC49083E}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_paris_beertapmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.699999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3728254640
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DDE2B738-26E5-5282-A123-1F2C2C6F9E2A}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_rubber_bar_mat_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.49000000953674316
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.550000011920929
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4281398384
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E0741EEF-A655-5AFB-995F-9BFF81194D3D}"
+                                            },
+                                            "assetHint": "interior/props/paris_bar_items/paris_bar_items_plastic_02mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.44999998807907104
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11635376022675091771]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11635376022675091771,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12030380408514674841
+                        },
+                        {
+                            "ComponentId": 18271480895065271134,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11220057334779409807,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12030380408514674841]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12030380408514674841,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[12703765529071978927]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12703765529071978927
+                },
+                "Component_[13798441422645921751]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13798441422645921751
+                },
+                "Component_[14165832078624138553]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14165832078624138553
+                },
+                "Component_[16354631704570076213]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16354631704570076213
+                },
+                "Component_[18271480895065271134]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18271480895065271134,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B40008E7-5E63-588D-89CC-29F24C727F69}",
+                                    "subId": 269921538
+                                },
+                                "assetHint": "interior/props/paris_bar_items/paris_bar_items.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4972820324350541121]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4972820324350541121
+                },
+                "Component_[5587901744183193793]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5587901744183193793
+                },
+                "Component_[5849358851660436057]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5849358851660436057
+                },
+                "Component_[930632182584942930]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 930632182584942930
+                }
+            }
+        }
+    }
+}
