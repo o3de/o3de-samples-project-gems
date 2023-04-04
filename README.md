@@ -9,6 +9,14 @@ This repository contains:
 4. (Future) A GitHub release folder
    1. The gem .zip containing the gem and associated gem.json for each gem
 
+## O3DE Modularity
+
+O3DE is highly modular engine and is essentially a collection of O3DE objects. O3DE objects are things like projects and gems, this repository contains both sample asset Gems (asset collections) and sample projects for contributing and validating sample assets (generally not fully featured interactive game projects.)
+
+### Core, Canonical and Non-Canonical repos and objects
+
+This repository is considered Non-Canonical which means unofficial, untested and not part of an official O3DE release.  Canonical means officially supported, tested and part of an official O3DE release (see https://github.com/o3de/o3de-extras) 
+
 ## If you want to use these Gems in your own o3de game project
 
 ### (Future) Option #1. Remote Repository, use packaged Gems with the Project Manager
