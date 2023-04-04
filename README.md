@@ -1,12 +1,9 @@
 # O3DE Samples Project Gems
 
-( replace with readme header image )
 
 This repository contains:
 
 1. A collection of O3DE Asset Gems (portable asset packages)
-   1. The source folder for each Gem, for development by Contributors.
-   2. E.g. an Asset Gem for Bistro converter for use in O3DE
 2. Asset test projects in: o3de-samples-project-gems/tree/main/Projects/*
 3. (Future) A `repo.json` file containing information about this O3DE Remote Gem Repository
 4. (Future) A GitHub release folder
@@ -104,10 +101,10 @@ Now these Gems will be available in the Project Manager and can be added to your
 
 ## (Optional) o3de-samples-project-gems\Projects\*
 
-This repository contains it's own O3DE Game projects which utilize these sample assets.  These projects can be used by contributors to build, validate, and maintain new assets independently.
+This repository contains its own O3DE Game projects which utilize these sample assets.  These projects can be used by contributors to build, validate, and maintain new assets independently.
 
 ```shell
-# the test project for mps assets, is in this project folder in repo
+# the test projects for sample assets, are in this project folder in repo
 > cd C:\path\to\o3de-samples-project-gems\Project
 ```
 
@@ -117,7 +114,7 @@ This repository contains it's own O3DE Game projects which utilize these sample 
 
 2. Use the blue button in the upper right labeled "New Project ...", and with the pulldown select "Open Existing Project"
 
-3. Browse to and add the MPS Asset Test Project folder: `C:\path\to\repo\o3de-samples-project-gems\Projects\<sample project>`
+3. Browse to and add a sample project folder: `C:\path\to\repo\o3de-samples-project-gems\Projects\<sample project>`
 
 4. You may be prompted to rebuild the project (there are other options for building as a developer)
 

@@ -63,7 +63,7 @@ Push changes to the origin. This is required to share your changes, run Automate
 
 You’ll want to submit a Pull Request and get 2 reviewers before you merge your changes to the public repo.
 
-1. Go to: [GitHub - o3de/o3de-multiplayersample-assets](https://github.com/o3de/o3de-multiplayersample-assets)
+1. Go to: [GitHub - o3de/o3de-samples-project-gems](https://github.com/o3de/o3de-samples-project-gems)
 2. Click *New Pull Request*
 3. Click compare and select your branch.
    1. Base branch: development
@@ -93,15 +93,15 @@ Add the necessary details to the PR
 
 ## Asset Contributions:
 
-If you are authoring and submitting content to this o3de-multiplayer-assets repository, you should abide by the best practices outlined in the guides located in the following location [o3de-multiplayersample-assets/Guides](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides)
+If you are authoring and submitting content to this o3de-multiplayer-assets repository, you should abide by the best practices outlined in the guides located in the following location [o3de-samples-project-gems/Guides](https://github.com/o3de/o3de-samples-project-gems/tree/main/Guides)
 
-These guides are a work in progress, may not be complete and are maintained by the community. If there are important workflows or information that is critical but missing, please [file a GHI for this repo (link)](https://github.com/o3de/o3de-multiplayersample-assets/issues/new). We encourage contributors and the community to also write additional content for these guides, so feel free to make changes and push a PR with updates.
+These guides are a work in progress, may not be complete and are maintained by the community. If there are important workflows or information that is critical but missing, please [file a GHI for this repo (link)](https://github.com/o3de/o3de-samples-project-gems/issues/new). We encourage contributors and the community to also write additional content for these guides, so feel free to make changes and push a PR with updates.
 
-#### [Getting Started (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/GettingStarted.md)
+#### [Getting Started (link)](https://github.com/o3de/o3de-samples-project-gems/blob/main/Guides/GettingStarted.md)
 
 This guide will help you get up and running with Digital Content Creation tools (DCC), such as Blender or Maya.
 
-#### [Content Guide (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/ContentGuide.md)
+#### [Content Guide (link)](https://github.com/o3de/o3de-samples-project-gems/blob/main/Guides/ContentGuide.md)
 
 This guide outlines in depth best practices about our standards for asset contributions such as 3D model props, materials, terrain, and other general asset types etc.
 
