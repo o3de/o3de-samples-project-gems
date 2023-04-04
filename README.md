@@ -112,7 +112,7 @@ Now these Gems will be available in the Project Manager and can be added to your
 This repository contains its own O3DE Game projects which utilize these sample assets.  These projects can be used by contributors to build, validate, and maintain new assets independently.
 
 ```shell
-# the test projects for sample assets, are in this project folder in repo
+# the test projects for sample assets are in this project folder in repo
 > cd C:\path\to\o3de-samples-project-gems\Project
 ```
 
