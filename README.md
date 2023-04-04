@@ -73,7 +73,7 @@ Cloning into 'o3de-samples-project-gems'...
 Cloning into 'o3de-samples-project-gems'...
 
 # modify the local engine git exclude file to ignore the project folder
-> echo gems\o3de-multiplayersample-assets > c:/path/to/o3de/.git/info/exclude
+> echo gems\o3de-samples-project-gems > c:/path/to/o3de/.git/info/exclude
 ```
 
 If you have a Git credential helper configured, you should not be prompted for your credentials anymore.
