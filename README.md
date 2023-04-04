@@ -15,7 +15,7 @@ O3DE is highly modular engine and is essentially a collection of O3DE objects. O
 
 ### Core, Canonical and Non-Canonical repos and objects
 
-This repository is considered Non-Canonical which means unofficial, untested and not part of an official O3DE release.  Canonical means officially supported, tested and part of an official O3DE release (see https://github.com/o3de/o3de-extras) 
+This repository is considered Non-Canonical which means unofficial, untested and not part of an official O3DE release.  Canonical means officially supported, tested and part of an official O3DE release, For more detailed information about optional non-canonical versus canonical O3DE repositories see https://github.com/o3de/o3de-extras
 
 ## If you want to use these Gems in your own o3de game project
 
