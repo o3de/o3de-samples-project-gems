@@ -1,0 +1,27 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352941632270813,
+            0.41960784792900085,
+            0.30588236451148987,
+            1.0
+        ],
+        "baseColor.factor": 0.33000001311302185,
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "@gemroot:MaterialEditor@/Assets/MaterialEditor/ViewportModels/_dev_shaderball_00_basecolor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "irradiance.irradianceColorSource": "BaseColorTint",
+        "normal.textureMap": "@gemroot:CommonFeaturesAtom@/Assets/Objects/Hermanubis/Hermanubis_Normal.png",
+        "occlusion.diffuseTextureMap": "@gemroot:CommonFeaturesAtom@/Assets/Objects/Hermanubis/Hermanubis_ao.tif",
+        "occlusion.diffuseTextureMapUv": "Unwrapped",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.7487671971321106
+    }
+}

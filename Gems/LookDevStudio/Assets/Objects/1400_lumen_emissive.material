@@ -1,37 +1,27 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "color": [
-                1.0,
-                0.7764706015586853,
-                0.615686297416687,
-                1.0
-            ]
-        },
-        "emissive": {
-            "color": [
-                1.0,
-                0.7764706015586853,
-                0.615686297416687,
-                1.0
-            ],
-            "enable": true,
-            "intensity": 7.0
-        },
-        "irradiance": {
-            "color": [
-                1.0,
-                0.7764706015586853,
-                0.615686297416687,
-                1.0
-            ]
-        },
-        "opacity": {
-            "factor": 1.0
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "emissive.color": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 7.0,
+        "irradiance.manualColor": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "opacity.factor": 1.0
     }
 }

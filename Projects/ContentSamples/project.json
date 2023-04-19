@@ -50,7 +50,7 @@
         "ReferenceMaterials",
         "Terrain",
         "Vegetation",
-        "LookDevStudio==1.0.0"
+        "LookDevStudio"
     ],
     "engine_version": "1.2.0"
 }
