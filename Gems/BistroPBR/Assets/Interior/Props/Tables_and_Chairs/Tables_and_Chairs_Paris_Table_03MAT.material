@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "textures/Paris_Table_03_0_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "textures/Paris_Table_03_0_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "textures/Paris_Table_03_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "textureMap": "textures/Paris_Table_03_0_Height.png"
+        },
+        "roughness": {
+            "textureMap": "textures/Paris_Table_03_0_Roughness.png"
+        }
+    }
+}

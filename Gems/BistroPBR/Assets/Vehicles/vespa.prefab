@@ -1,0 +1,268 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "vespa",
+        "Components": {
+            "Component_[11595955907343334940]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11595955907343334940
+            },
+            "Component_[14667107412369965540]": {
+                "$type": "EditorLockComponent",
+                "Id": 14667107412369965540
+            },
+            "Component_[15274773884469103166]": {
+                "$type": "SelectionComponent",
+                "Id": 15274773884469103166
+            },
+            "Component_[15542921535748611794]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15542921535748611794
+            },
+            "Component_[16688282647726675674]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16688282647726675674
+            },
+            "Component_[17558200855431951204]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17558200855431951204
+            },
+            "Component_[18020993215061204779]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18020993215061204779
+            },
+            "Component_[3391753962940373967]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3391753962940373967
+            },
+            "Component_[6903865516186567617]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6903865516186567617,
+                "Parent Entity": ""
+            },
+            "Component_[756065484586550208]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 756065484586550208,
+                "Child Entity Order": [
+                    "Entity_[747860940695]"
+                ]
+            },
+            "Component_[873455169229970005]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 873455169229970005
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[747860940695]": {
+            "Id": "Entity_[747860940695]",
+            "Name": "vespa",
+            "Components": {
+                "Component_[10757583978876880868]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10757583978876880868
+                },
+                "Component_[14717746411772696445]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14717746411772696445
+                },
+                "Component_[16883110148369722755]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16883110148369722755
+                },
+                "Component_[17600536924902473260]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17600536924902473260,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E44C7098-9D25-52B9-83FA-5EDC296B9238}",
+                                    "subId": 276110194
+                                },
+                                "assetHint": "vehicles/vespa.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1772418042955211061]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1772418042955211061,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[18308914412073934295]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18308914412073934295
+                },
+                "Component_[2373899816079784015]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2373899816079784015
+                },
+                "Component_[3566904422180700693]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3566904422180700693
+                },
+                "Component_[6460206936483830130]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6460206936483830130
+                },
+                "Component_[6751826416663056955]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6751826416663056955
+                },
+                "Component_[8907091832983694935]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8907091832983694935,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 539247990
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CE70A9E7-ABC3-5611-8F59-900CDC316B3F}"
+                                            },
+                                            "assetHint": "vehicles/vespa_vespa_headlightmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6200000047683716
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 722793169
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DD27F050-D98F-5F2B-B0A2-9FE933EA1722}"
+                                            },
+                                            "assetHint": "vehicles/vespa_vespamat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 0.47999998927116394
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            },
+                                            "clearCoat.roughness": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.18000000715255737
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1163067228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3EC8CDD0-2D5E-5E76-BD02-827C2CE908BA}"
+                                            },
+                                            "assetHint": "vehicles/vespa_vespa_odometermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5600000023841858
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3843160721
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{215325C4-23CD-5274-A0D2-81EDAE70BCDF}"
+                                            },
+                                            "assetHint": "vehicles/vespa_vespa_odometer_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9422427042640869117]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9422427042640869117,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1772418042955211061
+                        },
+                        {
+                            "ComponentId": 17600536924902473260,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8907091832983694935,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

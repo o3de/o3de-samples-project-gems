@@ -1,0 +1,170 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "flowers",
+        "Components": {
+            "Component_[1053303021896739041]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1053303021896739041,
+                "Child Entity Order": [
+                    "Entity_[2986506126380]"
+                ]
+            },
+            "Component_[12641497342567440008]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12641497342567440008
+            },
+            "Component_[12664263674161503338]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12664263674161503338
+            },
+            "Component_[12848707438308582994]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12848707438308582994
+            },
+            "Component_[13785254790099988534]": {
+                "$type": "EditorLockComponent",
+                "Id": 13785254790099988534
+            },
+            "Component_[16047103601574524561]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16047103601574524561,
+                "Parent Entity": ""
+            },
+            "Component_[1671167732523748939]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1671167732523748939
+            },
+            "Component_[1793819289558536834]": {
+                "$type": "SelectionComponent",
+                "Id": 1793819289558536834
+            },
+            "Component_[3232258912689983455]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3232258912689983455
+            },
+            "Component_[4302703524847840573]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4302703524847840573
+            },
+            "Component_[6624772476767997100]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6624772476767997100
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2986506126380]": {
+            "Id": "Entity_[2986506126380]",
+            "Name": "flowers",
+            "Components": {
+                "Component_[11526181720580353977]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11526181720580353977,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11702308114875783585
+                        },
+                        {
+                            "ComponentId": 7723809840642982457,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3399854612948800487,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11702308114875783585]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11702308114875783585,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[14434009147482877118]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14434009147482877118
+                },
+                "Component_[16326770332621708072]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16326770332621708072
+                },
+                "Component_[18100412929744812829]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18100412929744812829
+                },
+                "Component_[3009049925970462936]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3009049925970462936
+                },
+                "Component_[3399854612948800487]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3399854612948800487,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1994838139
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DDE5EC03-4F35-58AD-9C04-E0FB35E880D3}"
+                                            },
+                                            "assetHint": "interior/props/flowers/flowers_plants_metal_base_01mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2263262543
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BAB47793-9151-5EF3-8367-39EFBE8ACAA8}"
+                                            },
+                                            "assetHint": "interior/props/flowers/flowers_plants_plantsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3801737060364815968]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3801737060364815968
+                },
+                "Component_[7704722053542769881]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7704722053542769881
+                },
+                "Component_[7723809840642982457]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7723809840642982457,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BE1FC3F7-A850-5F74-A31E-3C18113E0854}",
+                                    "subId": 279913216
+                                },
+                                "assetHint": "interior/props/flowers/flowers.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7798949354879902782]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7798949354879902782
+                },
+                "Component_[9844939924064834449]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9844939924064834449
+                }
+            }
+        }
+    }
+}

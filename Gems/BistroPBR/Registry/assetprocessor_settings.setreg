@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder BistroPBR/Assets": {
+                    "watch": "@GEMROOT:BistroPBR@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder BistroPBR/Registry": {
+                    "watch": "@GEMROOT:BistroPBR@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

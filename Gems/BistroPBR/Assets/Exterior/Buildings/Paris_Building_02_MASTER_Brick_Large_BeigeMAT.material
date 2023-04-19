@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/MASTER_Brick_Large_Beige_BLENDSHADER_0_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "textures/MASTER_Brick_Large_Beige_BLENDSHADER_0_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "textures/MASTER_Brick_Large_Beige_BLENDSHADER_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "factor": 0.017000000923871994,
+            "textureMap": "textures/MASTER_Brick_Large_Beige_BLENDSHADER_0_Height.png"
+        },
+        "roughness": {
+            "textureMap": "textures/MASTER_Brick_Large_Beige_BLENDSHADER_0_Roughness.png"
+        }
+    }
+}

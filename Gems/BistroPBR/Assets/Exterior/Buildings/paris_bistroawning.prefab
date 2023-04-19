@@ -1,0 +1,268 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_bistroawning",
+        "Components": {
+            "Component_[10499893370221143565]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10499893370221143565
+            },
+            "Component_[11985721139941212507]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11985721139941212507
+            },
+            "Component_[14946770452010620607]": {
+                "$type": "EditorLockComponent",
+                "Id": 14946770452010620607
+            },
+            "Component_[15531663058404682175]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15531663058404682175
+            },
+            "Component_[17808973945043110282]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17808973945043110282
+            },
+            "Component_[183497532013881599]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 183497532013881599,
+                "Child Entity Order": [
+                    "Entity_[1401835908831]"
+                ]
+            },
+            "Component_[2037286650290957997]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2037286650290957997
+            },
+            "Component_[2594065398832403072]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2594065398832403072,
+                "Parent Entity": ""
+            },
+            "Component_[6707375227047194571]": {
+                "$type": "SelectionComponent",
+                "Id": 6707375227047194571
+            },
+            "Component_[7602961484303872150]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7602961484303872150
+            },
+            "Component_[979198821588909601]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 979198821588909601
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1401835908831]": {
+            "Id": "Entity_[1401835908831]",
+            "Name": "paris_bistroawning",
+            "Components": {
+                "Component_[1051494211544049043]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1051494211544049043,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3569544236
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E64F7170-3A05-501A-B181-38D5045DF6F9}"
+                                            },
+                                            "assetHint": "exterior/buildings/bistroawning_awnings_fabricmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "\u0000\u0016L¦.\u0002\u0000\u0000/Props/Bar_Lighting/bar_lighting.prefab": {
+                                                "$type": "float",
+                                                "Value": 3.5999999046325684
+                                            },
+                                            "ð\u0013L¦.\u0002\u0000\u0000/o3de-dev/Gems/Samples/BistroPBR/As": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "àìÈç1\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.4000000059604645
+                                            },
+                                            "HwQù.\u0002": {
+                                                "$type": "float",
+                                                "Value": 2.5999999046325684
+                                            },
+                                            " [¤p/\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.5440000295639038
+                                            },
+                                            " íÈç1\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.4880000054836273
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5799999833106995
+                                            },
+                                            "PYL¦.\u0002\u0000\u0000/Buildings/paris_bistroawning.prefa": {
+                                                "$type": "float",
+                                                "Value": 0.6399999856948853
+                                            },
+                                            "@‡Qù.\u0002": {
+                                                "$type": "float",
+                                                "Value": 0.6000000238418579
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.9243610501289368,
+                                                    0.0013122758828103542,
+                                                    0.0013122758828103542,
+                                                    1.0
+                                                ]
+                                            },
+                                            " \u001DL¦.\u0002\u0000\u0000/o3de-dev/Gems/Samples/BistroPBR/As": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.7968719005584717,
+                                                    0.032349128276109695,
+                                                    0.08110170066356659,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3697343858
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{765F6D14-BCEA-5C26-BD25-D69E45C3A0AB}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_bistroawning_awnings_beamsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4123367716
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3DB690A0-758A-57B7-B2DB-9E0826429429}"
+                                            },
+                                            "assetHint": "exterior/buildings/bistroawning_awnings_hotel_fabricmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "irradiance.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "PYL¦.\u0002\u0000\u0000/Buildings/paris_bistroawning.prefa": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11354148859341638544]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11354148859341638544
+                },
+                "Component_[11387786657796899269]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11387786657796899269
+                },
+                "Component_[11616028742347510364]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11616028742347510364
+                },
+                "Component_[1280838071090925423]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1280838071090925423,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12927046860131509665
+                        },
+                        {
+                            "ComponentId": 4785277356846445425,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1051494211544049043,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12927046860131509665]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12927046860131509665,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.6433571577072144
+                        ]
+                    }
+                },
+                "Component_[16641015882385423888]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16641015882385423888
+                },
+                "Component_[18164666224406814115]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18164666224406814115
+                },
+                "Component_[454829100406908469]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 454829100406908469
+                },
+                "Component_[4785277356846445425]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4785277356846445425,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1F10599C-99B3-585A-9B56-BB927EE5CCD3}",
+                                    "subId": 269027712
+                                },
+                                "assetHint": "exterior/buildings/paris_bistroawning.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6304633580874936491]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6304633580874936491
+                },
+                "Component_[7866005512159975286]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7866005512159975286
+                }
+            }
+        }
+    }
+}

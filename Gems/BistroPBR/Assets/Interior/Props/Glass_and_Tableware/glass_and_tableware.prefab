@@ -1,0 +1,855 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "glass_and_tableware",
+        "Components": {
+            "Component_[11928652460482433858]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11928652460482433858
+            },
+            "Component_[15673995701112156468]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15673995701112156468
+            },
+            "Component_[18073445254054395250]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 18073445254054395250
+            },
+            "Component_[18377697015159714620]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 18377697015159714620,
+                "Parent Entity": ""
+            },
+            "Component_[2330221017410617966]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2330221017410617966
+            },
+            "Component_[3597120228467020430]": {
+                "$type": "SelectionComponent",
+                "Id": 3597120228467020430
+            },
+            "Component_[3883235398270153675]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3883235398270153675,
+                "Child Entity Order": [
+                    "Entity_[8715992499244]"
+                ]
+            },
+            "Component_[4737390639066324392]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4737390639066324392
+            },
+            "Component_[5772210254099205420]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5772210254099205420
+            },
+            "Component_[7747226175480519575]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7747226175480519575
+            },
+            "Component_[9610212635653171643]": {
+                "$type": "EditorLockComponent",
+                "Id": 9610212635653171643
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[8715992499244]": {
+            "Id": "Entity_[8715992499244]",
+            "Name": "glass_and_tableware",
+            "Components": {
+                "Component_[12089802385544264791]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12089802385544264791
+                },
+                "Component_[12828162175434333873]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12828162175434333873
+                },
+                "Component_[13062780081591460793]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13062780081591460793,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[13294357523121865730]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13294357523121865730
+                },
+                "Component_[15924166730080722682]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15924166730080722682
+                },
+                "Component_[18325063930434963384]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18325063930434963384,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 88628701
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{51A22CFC-1A78-55F7-B154-A49173FC034E}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_wickerbasketmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8199999928474426
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 461454060
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0E17D7E0-9122-5A11-A56F-1E1380993A49}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_table_cloth_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7699999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 483287483
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A2205532-6C3E-5BE0-8644-37069549931B}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_metal_chrome1mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.05999999865889549
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            },
+                                            "clearCoat.roughness": {
+                                                "$type": "float",
+                                                "Value": 0.3499999940395355
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 0.25
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 542906373
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{95B56856-2378-51AB-B1B1-CA9790C9EB83}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_plates_ceramicmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.30000001192092896
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.30000001192092896
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 624863954
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{75350AE3-1BB4-5654-86F6-C71E18807CBB}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_01_glass1mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.800000011920929,
+                                                    0.800000011920929,
+                                                    0.800000011920929,
+                                                    1.0
+                                                ]
+                                            },
+                                            "normal.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{767CB3C5-E37E-5763-9A4F-42DCD1164516}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/paris_liquorbottle_01_glass1_0_normal.png.streamingimage"
+                                                }
+                                            },
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8600000143051147
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "baseColor.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{D6126FC8-9A83-57D8-8998-B11A0CB04345}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/paris_liquorbottle_01_glass_0_basecolor.png.streamingimage"
+                                                }
+                                            },
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.enableIBL": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "baseColor.textureMapUv": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "general.enableAreaLights": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3400000035762787
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "clearCoat.roughness": {
+                                                "$type": "float",
+                                                "Value": 0.05999999865889549
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7699999809265137
+                                            },
+                                            "baseColor.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.23999999463558197
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 954823463
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B23DB5B7-1573-5C3F-9F74-BC52A78BE0A7}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_01_glass_winemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.enableIBL": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.2800000011920929
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.03999999910593033
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.alphaAffectsSpecular": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.09000000357627869
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1395359708
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3FE69402-7827-5738-B371-C85593BAD30D}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_01_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.11990539729595184,
+                                                    0.11990539729595184,
+                                                    0.11990539729595184,
+                                                    1.0
+                                                ]
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.enableIBL": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.2199999988079071
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.03999999910593033
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9800000190734863
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.12999999523162842
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1677918662
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B96D5861-A7DA-5B46-8F20-271DEAF9581C}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_cutlery_chromemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.15000000596046448
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1954076749
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{48224553-CCCB-55B9-99D3-2966021E7E88}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_toffeejar_labelmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3400000035762787
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.07000000029802322
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2142318611
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4E72A4A6-3AA7-5F12-BDB2-3A1D043D726B}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_toffeejar_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5400000214576721
+                                            },
+                                            "baseColor.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4000000059604645
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2313493546
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3B082D2B-D8E0-5845-A1A1-1D281BC2299C}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_coasters_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5699999928474426
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539899278
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B8062719-5053-5DC3-9056-2E76E580D7A7}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_cookiejar_cookiesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3400000035762787
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2642294733
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A4D25973-19E6-5E0C-81F4-AB666EBF5AB7}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_03_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.enableIBL": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.18000000715255737
+                                            },
+                                            "baseColor.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.03999999910593033
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.11999999731779099
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2717835332
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{11213ADC-C31D-5B61-88D9-12B96DC5CFAA}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_napkinholder_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2815422771
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AFD3F35B-6039-51EC-8E6F-7E477BA10FEA}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_02_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.enableIBL": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.25999999046325684
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.03999999910593033
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.12999999523162842
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3510259245
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1AA27178-9A4B-5444-94AB-99497E0EE17F}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_plates_detailsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.18000000715255737
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.009999999776482582
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4025155659
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F6A27F7B-73B3-5EE1-9174-4B5A8F87E587}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_cutlery_detailsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3700000047683716
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4098125112
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5E0F5E8B-3732-53A9-9C63-87118965BE42}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_toffeejar_toffeemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.49000000953674316
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4138438805
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{947D1ECD-AD1A-5F33-B995-2EE22635A5FA}"
+                                            },
+                                            "assetHint": "interior/props/glass_and_tableware/glass_and_tableware_paris_liquorbottle_01_capsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2268253392762554603]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2268253392762554603,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{392D0461-26E4-580D-889C-C45C7706DDCD}",
+                                    "subId": 270554709
+                                },
+                                "assetHint": "interior/props/glass_and_tableware/glass_and_tableware.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3603559678321058390]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3603559678321058390,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13062780081591460793
+                        },
+                        {
+                            "ComponentId": 2268253392762554603,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 18325063930434963384,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3933952057680754894]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3933952057680754894
+                },
+                "Component_[4089935394519316446]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4089935394519316446
+                },
+                "Component_[6098809660856117114]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6098809660856117114
+                },
+                "Component_[8744898081825858067]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8744898081825858067
+                }
+            }
+        }
+    }
+}

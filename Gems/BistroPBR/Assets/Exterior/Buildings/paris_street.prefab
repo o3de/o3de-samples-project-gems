@@ -1,0 +1,815 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "paris_street",
+        "Components": {
+            "Component_[10718818779915163607]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10718818779915163607
+            },
+            "Component_[12094559481393396872]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12094559481393396872,
+                "Child Entity Order": [
+                    "Entity_[3569654454167]"
+                ]
+            },
+            "Component_[15520477901847076384]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15520477901847076384
+            },
+            "Component_[1898005612220819114]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1898005612220819114,
+                "Parent Entity": ""
+            },
+            "Component_[4219089649568673572]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4219089649568673572
+            },
+            "Component_[4863925381701990185]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4863925381701990185
+            },
+            "Component_[5185535130527130369]": {
+                "$type": "EditorLockComponent",
+                "Id": 5185535130527130369
+            },
+            "Component_[5946874356188774852]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5946874356188774852
+            },
+            "Component_[6595158341135652971]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6595158341135652971
+            },
+            "Component_[8231482701275420126]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8231482701275420126
+            },
+            "Component_[8912284609525658259]": {
+                "$type": "SelectionComponent",
+                "Id": 8912284609525658259
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3569654454167]": {
+            "Id": "Entity_[3569654454167]",
+            "Name": "paris_street",
+            "Components": {
+                "Component_[10137918643525107630]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10137918643525107630,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[11965789300098565161]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11965789300098565161
+                },
+                "Component_[12595333599191513474]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12595333599191513474
+                },
+                "Component_[13455945920041159054]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13455945920041159054
+                },
+                "Component_[13946489392875084666]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13946489392875084666,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DA401194-6D03-599D-8D14-3295EE60D11E}",
+                                    "subId": 282530159
+                                },
+                                "assetHint": "exterior/buildings/paris_street.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15153631446932172752]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15153631446932172752
+                },
+                "Component_[16018771543349628779]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16018771543349628779
+                },
+                "Component_[16377582089669834513]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16377582089669834513,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10137918643525107630
+                        },
+                        {
+                            "ComponentId": 13946489392875084666,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7211888524683388236,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2554868955308747394]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2554868955308747394
+                },
+                "Component_[2841236004143798305]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2841236004143798305
+                },
+                "Component_[6361430372459887425]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6361430372459887425
+                },
+                "Component_[7211888524683388236]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7211888524683388236,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 414384330
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8ADB58F9-F377-50A0-955A-29FD1DFAFE06}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_curbstonesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8100000023841858
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 487237447
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{054B268C-6A87-5E99-9694-A49F86772477}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_green_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.5225147008895874,
+                                                    1.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.440000057220459
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 612513284
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C5C3838D-F322-5308-B11E-B87EF109A0A2}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7200000286102295
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 873568986
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{10D102B3-96E3-583F-9614-758948D29A62}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_streetlight_chainsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 885217121
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C25A3265-249B-530C-A66C-BD8CF1466262}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_red_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 7.199999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1261891606
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7966F224-9FDD-546F-9F24-F8B5280CFD43}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_streetsign_01mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1266346583
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B3358B46-2628-5071-AE0E-1CE9F919CFF7}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_big_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7099999785423279
+                                            },
+                                            "normal.flipX": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.159999966621399
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1476652394
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71E3C43-5C92-5EAB-8322-42E207F65EB2}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_master_brick_small_redmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1834263124
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E654DA85-1C29-5345-87BF-30660B8BB829}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_blue_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.0025787746999412775,
+                                                    0.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.760000228881836
+                                            },
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.0,
+                                                    0.03854428976774216,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2202802618
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{70BAA1FA-1673-5C37-8676-3EF451DFDF67}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_02mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.699999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2471515526
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E8E45724-3665-50F7-B72E-93CB76805886}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_streetlight_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2556460023
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3EFC9C9F-5B04-51B7-BE01-A9209C405327}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_brickmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.23000000417232513
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.2199999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2606448420
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D7894B28-806E-53ED-A0CE-3B9C3093341F}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_orange_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.8148470520973206,
+                                                    0.3967498242855072,
+                                                    0.057801175862550735,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.440000057220459
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2636027864
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AFFEC8CD-8118-53BF-959D-D522DED5136A}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_wet_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8299999833106995
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2738952607
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E66DA44F-B6B4-572A-A78B-08E12BC5B567}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_streetlight_support_bulbmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2742928767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AF921CCE-A54C-5510-9772-605A92FC53E1}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_streetpivotmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3143758210
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C8B8948D-1E0C-53D4-B0C9-01043F3716B5}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_sidewalkbarriermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4000000059604645
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3405674842
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0486802E-948E-5DBF-ADC7-CDED1627C703}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_small_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3489805629
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F9251232-94FA-5AC5-9E97-ACEDD4F24D44}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_concrete3mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.699999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3669726844
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC8911D3-DE90-5C6B-9FEC-0BF541D7D54E}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_ground_wetmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7400000095367432
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3722100196
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9A24B1DB-2D45-5EB2-A58B-72A218F9D8EB}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobble_leavesmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6800000071525574
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3752565216
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6F1549D9-D551-5429-8F20-17889BF9756C}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_white_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.5
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3890304446
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8B2E7D22-D1D7-5C28-8DDB-981D87B61F76}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_paris_stringlights_01_pink_colormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.7437247037887573,
+                                                    0.0,
+                                                    0.4938582479953766,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.099999904632568
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3936353752
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B1C766B8-9C16-5332-BA72-86A941B4EE07}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_stringlightsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8700000047683716
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3971170199
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{21615B10-A289-50BC-B157-306911CD8D82}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_cobblestone_wet_leaves_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7599999904632568
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4183993780
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BF96EC66-909D-566B-AD07-EFD09C353E2C}"
+                                            },
+                                            "assetHint": "exterior/buildings/paris_street_pavement_manhole_covermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7599999904632568
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

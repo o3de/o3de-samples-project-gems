@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "textures/Wall_Lamp_0_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                0.33835354447364807,
+                0.0,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 6.099999904632568,
+            "textureMap": "textures/MASTER_Interior_01_Paris_Lantern_0_Emissive.png"
+        },
+        "normal": {
+            "textureMap": "textures/Wall_Lamp_0_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

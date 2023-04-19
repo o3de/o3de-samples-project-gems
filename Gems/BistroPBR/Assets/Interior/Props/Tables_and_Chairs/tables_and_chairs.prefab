@@ -1,0 +1,202 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "tables_and_chairs",
+        "Components": {
+            "Component_[11539729409943209096]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11539729409943209096,
+                "Child Entity Order": [
+                    "Entity_[11035274839084]"
+                ]
+            },
+            "Component_[11894144601603100811]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11894144601603100811
+            },
+            "Component_[12626817375515391061]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12626817375515391061
+            },
+            "Component_[12650556738780976892]": {
+                "$type": "EditorLockComponent",
+                "Id": 12650556738780976892
+            },
+            "Component_[16109972279325920644]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16109972279325920644
+            },
+            "Component_[17740922161616128539]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17740922161616128539
+            },
+            "Component_[4249800044779838828]": {
+                "$type": "SelectionComponent",
+                "Id": 4249800044779838828
+            },
+            "Component_[4263264116972647621]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4263264116972647621
+            },
+            "Component_[4928043340771157349]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4928043340771157349
+            },
+            "Component_[8491599254942592979]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8491599254942592979,
+                "Parent Entity": ""
+            },
+            "Component_[9882741521215371206]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9882741521215371206
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11035274839084]": {
+            "Id": "Entity_[11035274839084]",
+            "Name": "tables_and_chairs",
+            "Components": {
+                "Component_[10612376092526199009]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10612376092526199009,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1857269372
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{655696E7-E406-5178-ABFC-F935ED056FCA}"
+                                            },
+                                            "assetHint": "interior/props/tables_and_chairs/tables_and_chairs_paris_barstoolmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2718100161
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{90A03927-8606-5B4F-BB05-F1C3C7CC845B}"
+                                            },
+                                            "assetHint": "interior/props/tables_and_chairs/tables_and_chairs_paris_table_03mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.44999998807907104
+                                            },
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7699999809265137
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[10757464905693678298]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10757464905693678298,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C54AFD51-3145-525E-80D8-BC201B3020A3}",
+                                    "subId": 279438830
+                                },
+                                "assetHint": "interior/props/tables_and_chairs/tables_and_chairs.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11123493025233754602]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11123493025233754602
+                },
+                "Component_[14457496642430403123]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14457496642430403123,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[14659813541113697579]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14659813541113697579
+                },
+                "Component_[15327659865119677129]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15327659865119677129
+                },
+                "Component_[15943648517710646695]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15943648517710646695
+                },
+                "Component_[16019386800801967295]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16019386800801967295
+                },
+                "Component_[4036616630597785456]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4036616630597785456
+                },
+                "Component_[4727587811510511181]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4727587811510511181,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14457496642430403123
+                        },
+                        {
+                            "ComponentId": 10757464905693678298,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10612376092526199009,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5941918743970014017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5941918743970014017
+                },
+                "Component_[748158055708734541]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 748158055708734541
+                }
+            }
+        }
+    }
+}

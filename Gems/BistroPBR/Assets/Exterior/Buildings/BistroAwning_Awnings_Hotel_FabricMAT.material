@@ -1,0 +1,46 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "textures/Awnings_Hotel_Fabric_0_BaseColor.png"
+        },
+        "general": {
+            "doubleSided": true
+        },
+        "metallic": {
+            "textureMap": "textures/Awnings_Hotel_Fabric_0_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "textures/Awnings_Hotel_Fabric_0_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "textures/Awnings_Hotel_Fabric_0_AO.png"
+        },
+        "roughness": {
+            "textureMap": "textures/Awnings_Hotel_Fabric_0_Roughness.png"
+        },
+        "subsurfaceScattering": {
+            "enableSubsurfaceScattering": true,
+            "influenceMap": "textures/Awnings_Hotel_Fabric_0_Transmissive.png",
+            "scatterColor": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "subsurfaceScatterFactor": 0.6700000166893005,
+            "transmissionMode": "ThinObject",
+            "transmissionPower": 5.400000095367432,
+            "transmissionTint": [
+                0.9693293571472168,
+                0.13858243823051453,
+                0.08990615606307983,
+                1.0
+            ]
+        }
+    }
+}

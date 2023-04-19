@@ -1,0 +1,231 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "cash_register",
+        "Components": {
+            "Component_[11749389887106414728]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11749389887106414728,
+                "Child Entity Order": [
+                    "Entity_[2492584887340]"
+                ]
+            },
+            "Component_[13828946802072963368]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13828946802072963368
+            },
+            "Component_[16880600829295413158]": {
+                "$type": "SelectionComponent",
+                "Id": 16880600829295413158
+            },
+            "Component_[2900865591288115165]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2900865591288115165
+            },
+            "Component_[4441079734482733879]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4441079734482733879
+            },
+            "Component_[5842732020956989462]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5842732020956989462
+            },
+            "Component_[7095474690635404004]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7095474690635404004
+            },
+            "Component_[7209164196472567186]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7209164196472567186
+            },
+            "Component_[8890387365879740982]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8890387365879740982
+            },
+            "Component_[9763236585045091532]": {
+                "$type": "EditorLockComponent",
+                "Id": 9763236585045091532
+            },
+            "Component_[977312426168737195]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 977312426168737195,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2492584887340]": {
+            "Id": "Entity_[2492584887340]",
+            "Name": "cash_register",
+            "Components": {
+                "Component_[10735767090834500198]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10735767090834500198,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7D49D81E-3639-5074-9E24-681B8E015053}",
+                                    "subId": 276476377
+                                },
+                                "assetHint": "interior/props/cash_register/cash_register.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11437309029595176428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11437309029595176428
+                },
+                "Component_[11923343796872146235]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11923343796872146235,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1197946809
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B943D769-B71B-512A-BAB5-DD3C35C2DF21}"
+                                            },
+                                            "assetHint": "interior/props/cash_register/cash_register_paris_cashregister_buttons.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2921764597
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D42E4D3E-72ED-512E-8A79-BC5EB9D1BC47}"
+                                            },
+                                            "assetHint": "interior/props/cash_register/cash_register_paris_cashregistermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4293988314
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A30B2AFA-2B1E-5BCB-8400-0429DD1453AC}"
+                                            },
+                                            "assetHint": "interior/props/cash_register/cash_register_paris_cashregister_glass.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "general.doubleSided": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.09000000357627869
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.05999999865889549
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14314244519484079880]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14314244519484079880
+                },
+                "Component_[14540402205699167991]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14540402205699167991,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[16238239704932910581]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16238239704932910581,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14540402205699167991
+                        },
+                        {
+                            "ComponentId": 10735767090834500198,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11923343796872146235,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16890631303827075535]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16890631303827075535
+                },
+                "Component_[2461444112755209974]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2461444112755209974
+                },
+                "Component_[5026985932053342744]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5026985932053342744
+                },
+                "Component_[6475346246075622414]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6475346246075622414
+                },
+                "Component_[8784842898839863251]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8784842898839863251
+                },
+                "Component_[9617587149536596447]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9617587149536596447
+                }
+            }
+        }
+    }
+}

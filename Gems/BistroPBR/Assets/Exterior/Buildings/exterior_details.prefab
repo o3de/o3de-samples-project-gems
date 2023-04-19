@@ -1,0 +1,1070 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "exterior_details",
+        "Components": {
+            "Component_[10155798844180534301]": {
+                "$type": "EditorLockComponent",
+                "Id": 10155798844180534301
+            },
+            "Component_[10568619609448084568]": {
+                "$type": "SelectionComponent",
+                "Id": 10568619609448084568
+            },
+            "Component_[14513004050600794388]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14513004050600794388,
+                "Child Entity Order": [
+                    "Entity_[40463423526807]"
+                ]
+            },
+            "Component_[14881896573996175563]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14881896573996175563
+            },
+            "Component_[14935588917418568674]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14935588917418568674
+            },
+            "Component_[14991537011692418721]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14991537011692418721
+            },
+            "Component_[17349128216021476899]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17349128216021476899
+            },
+            "Component_[5580954594553668050]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5580954594553668050
+            },
+            "Component_[6911270178422576484]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6911270178422576484
+            },
+            "Component_[7251981465577073053]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7251981465577073053,
+                "Parent Entity": ""
+            },
+            "Component_[8360063526280138621]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8360063526280138621
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[40463423526807]": {
+            "Id": "Entity_[40463423526807]",
+            "Name": "exterior_details",
+            "Components": {
+                "Component_[10561198547447010917]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10561198547447010917
+                },
+                "Component_[10839868917353375014]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10839868917353375014,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 29078980
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{08788511-C4E8-5EAC-8EE7-86ED1F47CC7C}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_trafficsign_amat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 123776278
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8D3123BD-4A6F-5189-9724-98A4295BC7A5}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_concrete2mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8299999833106995
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 279442451
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E2016E10-0877-5675-BD83-A10972EAF367}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_napkinholdermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5400000214576721
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7400000095367432
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 370607065
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B627B098-612F-5932-B81C-A8E3CBD7721E}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_banner_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            },
+                                            "specularF0.factor": {
+                                                "$type": "float",
+                                                "Value": 0.20999999344348907
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9800000190734863
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 701814687
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FEA5C35B-33EF-526D-8FCC-B6B6D6F63DF8}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_chair_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6700000166893005
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 762023008
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8852E31D-18FC-5F26-A93C-5DB7525A7163}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_chimneys_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9900000095367432
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7799999713897705
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 842118921
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2AF8670-7CD4-5627-8D2A-A41177E28A84}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_electricboxmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.3799999952316284
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 954823463
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C63132E2-4187-534A-A932-0237ACF40EC4}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_liquorbottle_01_glass_winemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5600000023841858
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9599999785423279
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 3
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7699999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 955657536
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6A91B3B3-51C3-5FAF-960A-31C6379C1F31}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_trashcanmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9700000286102295
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.38999998569488525
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1046149737
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F84772FC-0E64-5FC8-B7C2-51BF2A1FE4AB}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_menusign_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7300000190734863
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1069526238
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ED82CAB5-7C55-5D75-8491-5813186A45CA}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_shopsign_pharmacymat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5299999713897705
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1215438511
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{30FBB3A8-F81A-5997-9396-8800CB84A77A}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_balcony_green_woodmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7799999713897705
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1419802936
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B9681B6E-FF53-542E-9871-39A358669BC3}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_antenna_plasticmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7099999785423279
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1817829917
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F40CEF90-E93D-5A83-B3B4-D90E69768A48}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_spotlight_mainmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{C011B11C-78D9-51E6-A767-F19F3EBB7760}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/spotlight_emissive_0_emissive.png.streamingimage"
+                                                }
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.539999961853027
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1881116793
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{247C8A79-7C75-5DD1-882C-E2F4AF5EBEE9}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_shopsign_bakerymat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.8399999737739563
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1950110967
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{991A41FB-3C95-581C-A455-0952514246AE}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_antenna_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2037814968
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0D7A4819-C4D3-5CF5-A408-FDAC2F8627C3}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_balcony_ornamentsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.800000011920929
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.699999988079071
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2037951585
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7191D238-FF48-577E-B3EA-F4D1F962B612}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_spotlight_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6000000238418579
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 3
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7400000095367432
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2060703500
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1B1344AA-4BB4-5035-BBC4-B0DB5E879688}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_balcony_trimsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.800000011920929
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2125222927
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B8E3E064-9612-5289-B15B-E998911F83CC}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_antenna_plastic_bluemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5600000023841858
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2165396952
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6B44404E-85EB-5725-A7AB-7D098919E333}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_plastermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7799999713897705
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2320011082
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{493EC0BC-8497-5330-8AD7-E1356DFFE77A}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_menusign_02_meshmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7799999713897705
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2343209106
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{56A8358A-D534-5589-BEDC-A1EDD0D6566C}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_spotlight_emissivemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2603448117
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B41D61F1-7A5C-5E6B-ABB4-CD623B582EDF}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_master_glass_dirty_maskedmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9800000190734863
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 3
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2771293728
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FA804FF8-9AAF-597B-A5F8-21BFCA16D4AB}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_balcony_concretemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7300000190734863
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3262983640
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F58F91F0-AE4F-5B26-A4C8-0D1BA649B380}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_concrete_stripedmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3506572494
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9D5CE803-2979-56C9-8231-0D341CA4F097}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_liquorbottle_01_labelsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.6299999952316284
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3541349825
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{48CBAC03-4282-569F-B750-2A9D61022A2F}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_master_black_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.9900000095367432
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3658309855
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B1F731A7-0B3B-566E-ADFE-8101625F85B8}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_table_terracemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7599999904632568
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3867987187
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0F25640D-2226-5E54-872F-870F02FC803A}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_shopsign_book_storemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.41999998688697815
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3882266932
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{748BCB4C-0F4E-5552-9148-EA2FA25456BF}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_ashtraymat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.47999998927116394
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3883016307
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DF2F3A6A-824F-5FAE-93C9-BA46138DDBED}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_lanternmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.320000171661377
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3950838240
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EEDAFD45-4C7F-5002-B2A6-9A89AE9BE5A9}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_concretemat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.7900000214576721
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4048054993
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1B3B61C7-2C8D-51B7-ABC4-FF85EFF5359D}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_menusign_02_glassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 3
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4088962404
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC6515BA-60EE-532A-B8F9-C5C3BEF0E268}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_shopsign_ties_shopmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5199999809265137
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4138438805
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E131561C-C2CA-52BE-8DD8-B35F093D8A83}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_paris_liquorbottle_01_capsmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5600000023841858
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4214132375
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ECC3F17C-963D-58DE-B096-CB2E862CAD5E}"
+                                            },
+                                            "assetHint": "exterior/buildings/exterior_details_master_metalmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4300000071525574
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12394659742016161753]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12394659742016161753
+                },
+                "Component_[1775424802159934146]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1775424802159934146
+                },
+                "Component_[2848808792263421264]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2848808792263421264
+                },
+                "Component_[326300568268857729]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 326300568268857729,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 554512527359032430
+                        },
+                        {
+                            "ComponentId": 8061745319230499785,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10839868917353375014,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3418064972278660950]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3418064972278660950
+                },
+                "Component_[554512527359032430]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 554512527359032430,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5745226271572832000]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5745226271572832000
+                },
+                "Component_[8061745319230499785]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8061745319230499785,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E725D898-07F1-5EE7-B85E-2E8F6314FA1E}",
+                                    "subId": 276065818
+                                },
+                                "assetHint": "exterior/buildings/exterior_details.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[850722791131128783]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 850722791131128783
+                },
+                "Component_[9290358924255318959]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9290358924255318959
+                }
+            }
+        }
+    }
+}

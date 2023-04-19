@@ -1,0 +1,376 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bar_lighting",
+        "Components": {
+            "Component_[12171448328003927900]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12171448328003927900
+            },
+            "Component_[13638730254294630902]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13638730254294630902,
+                "Parent Entity": ""
+            },
+            "Component_[14446642125376495922]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14446642125376495922
+            },
+            "Component_[14815129687065437427]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14815129687065437427
+            },
+            "Component_[2413429317247631796]": {
+                "$type": "SelectionComponent",
+                "Id": 2413429317247631796
+            },
+            "Component_[3213122301720455227]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3213122301720455227
+            },
+            "Component_[4531813317595326925]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4531813317595326925
+            },
+            "Component_[5884304605810547624]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5884304605810547624,
+                "Child Entity Order": [
+                    "Entity_[2007253582892]"
+                ]
+            },
+            "Component_[6203218439055101310]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6203218439055101310
+            },
+            "Component_[7692093087431547772]": {
+                "$type": "EditorLockComponent",
+                "Id": 7692093087431547772
+            },
+            "Component_[9685104462551248613]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9685104462551248613
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2007253582892]": {
+            "Id": "Entity_[2007253582892]",
+            "Name": "bar_lighting",
+            "Components": {
+                "Component_[10279830415734399404]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10279830415734399404,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10713490253589480795
+                        },
+                        {
+                            "ComponentId": 11107305846074799109,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17727922645208630357,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[10713490253589480795]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10713490253589480795,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[11107305846074799109]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11107305846074799109,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{627689F9-39AF-55A1-803C-651B06F6793A}",
+                                    "subId": 278621208
+                                },
+                                "assetHint": "interior/props/bar_lighting/bar_lighting.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13094813218482832273]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13094813218482832273
+                },
+                "Component_[14956530394626441533]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14956530394626441533
+                },
+                "Component_[17682878428507944087]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17682878428507944087
+                },
+                "Component_[17727922645208630357]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17727922645208630357,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 211833911
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9D477C70-4925-5E0F-A8A7-7988880C0045}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_paris_ceiling_lampmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{017DD552-A3A7-5A48-8FF0-53BA98F67D22}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/paris_ceiling_lamp_0_emissive.png.streamingimage"
+                                                }
+                                            },
+                                            "baseColor.textureMapUv": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 7.199999809265137
+                                            },
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.28999999165534973
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1355675943
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5395C122-80CA-5067-B323-8BD90D39EB45}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_metal_bronze_01mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "metallic.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.27000001072883606
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1625864653
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8188F73E-EC80-50DD-AC82-8D3A20C2ECE2}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_wall_lampmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.40198367834091187,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{1283887C-F302-5111-8777-AA2F299FFA8D}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/wall_lamp_0_emissive.png.streamingimage"
+                                                }
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 2.799999952316284
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3117229004
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B733DEB2-6766-5128-B024-C18CB204DD22}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_paris_ceilingfanmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 6.539999961853027
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3403519205
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4285FD6B-068F-558C-B3D5-F0F781B70DD4}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_paris_wall_bulb_lightmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.5
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4023025061
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8190BE48-4585-52E0-BB26-25EDF2E318D2}"
+                                            },
+                                            "assetHint": "interior/props/bar_lighting/bar_lighting_paris_wall_light_interiormat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.textureMap": {
+                                                "$type": "{403A7CFE-B218-5D57-8540-BD58E734BCFE} Asset",
+                                                "Value": {
+                                                    "assetId": {
+                                                        "guid": "{F613C0B4-AB31-5409-8AC8-178019136108}",
+                                                        "subId": 1000
+                                                    },
+                                                    "assetHint": "textures/paris_wall_light_interior_0_emissive.png.streamingimage"
+                                                }
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 4.559999942779541
+                                            },
+                                            "roughness.factor": {
+                                                "$type": "float",
+                                                "Value": 0.550000011920929
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.3641565442085266,
+                                                    0.06150911748409271,
+                                                    1.0
+                                                ]
+                                            },
+                                            "baseColor.textureBlendMode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2046774172392624627]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2046774172392624627
+                },
+                "Component_[3343939215239870146]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3343939215239870146
+                },
+                "Component_[6076729134936136328]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6076729134936136328
+                },
+                "Component_[81614437248585460]": {
+                    "$type": "SelectionComponent",
+                    "Id": 81614437248585460
+                },
+                "Component_[9433935748091471749]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9433935748091471749
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardMultilayerPBR.materialtype",
+    "materialTypeVersion": 3,
+    "properties": {
+        "blend": {
+            "enableLayer2": true,
+            "textureMap": "textures/Pavment_Wet_Mask.png"
+        },
+        "layer1_baseColor": {
+            "color": [
+                0.14633402228355408,
+                0.16850538551807404,
+                0.26434728503227234,
+                1.0
+            ],
+            "textureBlendMode": "Lerp"
+        },
+        "layer1_clearCoat": {
+            "enable": true
+        },
+        "layer1_metallic": {
+            "factor": 0.6899999976158142
+        },
+        "layer1_roughness": {
+            "factor": 0.0
+        },
+        "layer1_specularF0": {
+            "factor": 0.5099999904632568
+        },
+        "layer2_baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "textures/Pavement_Cobblestone_Wet_BLENDSHADER_0_BaseColor.png"
+        },
+        "layer2_metallic": {
+            "factor": 0.03999999910593033
+        },
+        "layer2_normal": {
+            "textureMap": "textures/Pavement_Cobblestone_Wet_BLENDSHADER_0_Normal.png"
+        },
+        "layer2_roughness": {
+            "factor": 0.33000001311302185
+        },
+        "layer2_specularF0": {
+            "factor": 0.009999999776482582
+        }
+    }
+}
