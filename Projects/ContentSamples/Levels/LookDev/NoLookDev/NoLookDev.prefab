@@ -357,7 +357,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 40.000003814697266,
-                            "EditorEntityId": 9641666064098949707
+                            "EditorEntityId": 3441082540054300277
                         }
                     }
                 },
@@ -402,14 +402,14 @@
                     "Parent Entity": "Entity_[1540009884280]",
                     "Transform Data": {
                         "Translate": [
-                            0.24627375602722168,
-                            -2.7040748596191406,
-                            2.9840621948242188
+                            -0.20165836811065674,
+                            -1.7061474323272705,
+                            2.3975212574005127
                         ],
                         "Rotate": [
-                            -16.837722778320313,
-                            -1.4973771572113037,
-                            4.934971809387207
+                            -15.03071117401123,
+                            0.866941511631012,
+                            -3.2250161170959473
                         ]
                     }
                 },
@@ -609,7 +609,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 40.00001525878906,
-                            "EditorEntityId": 11717125636914595025
+                            "EditorEntityId": 3183283849524003451
                         }
                     }
                 },
@@ -830,7 +830,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 40.00001525878906,
-                            "EditorEntityId": 8488097405174919179
+                            "EditorEntityId": 3580927126724837910
                         }
                     }
                 },
@@ -1359,14 +1359,14 @@
                     "Parent Entity": "Entity_[1540009884280]",
                     "Transform Data": {
                         "Translate": [
-                            -0.05650709196925163,
-                            0.2820848226547241,
-                            1.7251176834106445
+                            -0.12944069504737854,
+                            0.1991899013519287,
+                            1.825742483139038
                         ],
                         "Rotate": [
-                            -10.037501335144043,
-                            -0.147356778383255,
-                            -0.030540939420461655
+                            -13.983134269714355,
+                            0.5680911540985107,
+                            -2.2801082134246826
                         ]
                     }
                 },
@@ -1433,8 +1433,9 @@
                     "Id": 5662932882189550734,
                     "Controller": {
                         "Configuration": {
-                            "Threshold": 50.0,
-                            "Intensity": 0.75,
+                            "Enabled": true,
+                            "Threshold": 500.0,
+                            "Intensity": 0.25,
                             "BicubicEnabled": true
                         }
                     }
@@ -2184,11 +2185,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18131411239032589407]/Transform Data/Rotate/2",
                     "value": -132.77772521972656
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[2520758695725]/Components/Component_[17139591708661816843]/VisibilityFlag",
-                    "value": true
                 }
             ]
         },
@@ -2264,6 +2260,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[7227454055987764805]/Transform Data/Rotate/2",
                     "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7052912272659]/Components/Component_[6134113209638500998]/VisibilityFlag",
+                    "value": false
                 }
             ]
         }
