@@ -1,0 +1,37 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.496940553188324,
+                0.496940553188324,
+                0.496940553188324,
+                1.0
+            ],
+            "factor": 0.6464645862579346,
+            "textureBlendMode": "LinearLight",
+            "textureMap": "Materials/Bricks038_8K/Bricks038_8K_BaseColor.png"
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "normal": {
+            "textureMap": "Materials/Bricks038_8K/Bricks038_8K_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Materials/Bricks038_8K/Bricks038_8K_AmbientOcclusion.png"
+        },
+        "parallax": {
+            "algorithm": "ContactRefinement",
+            "factor": 0.02500000037252903,
+            "pdo": true,
+            "textureMap": "Materials/Bricks038_8K/Bricks038_8K_Displacement.png"
+        },
+        "roughness": {
+            "textureMap": "Materials/Bricks038_8K/Bricks038_8K_Roughness.png"
+        }
+    }
+}
