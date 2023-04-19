@@ -14,6 +14,27 @@
                     }
                 }
             },
+            "Component_[13168959451237025075]": {
+                "$type": "AZ::Render::EditorSpecularReflectionsComponent",
+                "Id": 13168959451237025075,
+                "Controller": {
+                    "Configuration": {
+                        "SSR": {
+                            "Options": {
+                                "Enable": true,
+                                "MaxRayDistance": 20.0,
+                                "MaxDepthThreshold": 0.5,
+                                "MaxRoughness": 0.550000011920929,
+                                "RoughnessBias": 0.10000000149011612,
+                                "HalfResolution": false,
+                                "RayTracing": false,
+                                "TemporalFilteringStrength": 1.7999999523162842,
+                                "MaxLuminance": 5.0
+                            }
+                        }
+                    }
+                }
+            },
             "Component_[14048479367121131352]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 14048479367121131352,
