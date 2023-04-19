@@ -1,0 +1,55 @@
+{
+    "project_name": "Content_Samples",
+    "version": "1.0.0",
+    "project_id": "{9C59B099-9EB7-40B1-AC18-BA075F5DFD50}",
+    "origin": "The primary repo for Content_Samples goes here: i.e. http://www.mydomain.com",
+    "license": "What license Content_Samples uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Content_Samples",
+    "summary": "A short description of Content_Samples.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Content_Samples"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "Content_Samples",
+    "gem_names": [
+        "Content_Samples",
+        "Atom",
+        "AudioSystem",
+        "AWSCore",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "BistroPBR==1.0.0",
+        "DccScriptingInterface",
+        "FastNoise",
+        "LyShineExamples",
+        "QtForPython",
+        "ReferenceMaterials",
+        "Terrain",
+        "Vegetation"
+    ],
+    "engine_version": "1.2.0"
+}
