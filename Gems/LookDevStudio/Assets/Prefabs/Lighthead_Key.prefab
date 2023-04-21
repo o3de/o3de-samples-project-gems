@@ -343,18 +343,19 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 274434668
+                                    "guid": "{2C665021-133A-538F-AEE3-97DE948C4D6D}",
+                                    "subId": 280367037
                                 },
-                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
-                            }
+                                "assetHint": "materialeditor/viewportmodels/quadsphere.azmodel"
+                            },
+                            "ExcludeFromReflectionCubeMaps": true,
+                            "IsRayTracingEnabled": false
                         }
                     }
                 },
                 "Component_[17139591708661816843]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 17139591708661816843,
-                    "VisibilityFlag": false
+                    "Id": 17139591708661816843
                 },
                 "Component_[1762010911759604096]": {
                     "$type": "EditorEntityIconComponent",
@@ -365,31 +366,20 @@
                     "Id": 17864134006684082456,
                     "IsEditorOnly": true
                 },
-                "Component_[3850576322027762150]": {
+                "Component_[6236485792991965239]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 3850576322027762150,
+                    "Id": 6236485792991965239,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 1738373820
+                                        "materialSlotStableId": 1803671422
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{94E3052F-2B5A-5C28-912A-C0FDC00F5CD3}"
-                                            },
-                                            "assetHint": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "general.castShadows": {
-                                                "$type": "bool",
-                                                "Value": false
-                                            },
-                                            "general.enableShadows": {
-                                                "$type": "bool",
-                                                "Value": false
                                             }
                                         }
                                     }

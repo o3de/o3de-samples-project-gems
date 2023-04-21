@@ -326,39 +326,24 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 14269728217902412817
                 },
-                "Component_[14535812838099293202]": {
+                "Component_[14854973702051555692]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14854973702051555692
+                },
+                "Component_[15027011428309500946]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 14535812838099293202,
+                    "Id": 15027011428309500946,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 1738373820
+                                        "materialSlotStableId": 1803671422
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{94E3052F-2B5A-5C28-912A-C0FDC00F5CD3}"
-                                            },
-                                            "assetHint": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "general.castShadows": {
-                                                "$type": "bool",
-                                                "Value": false
-                                            },
-                                            "general.enableShadows": {
-                                                "$type": "bool",
-                                                "Value": false
-                                            },
-                                            "irradiance.factor": {
-                                                "$type": "float",
-                                                "Value": 1.0
-                                            },
-                                            "irradiance.irradianceColorSource": {
-                                                "$type": "unsigned int",
-                                                "Value": 0
                                             }
                                         }
                                     }
@@ -366,11 +351,6 @@
                             ]
                         }
                     }
-                },
-                "Component_[14854973702051555692]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 14854973702051555692,
-                    "VisibilityFlag": false
                 },
                 "Component_[2419134100353829019]": {
                     "$type": "EditorInspectorComponent",
@@ -383,11 +363,13 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 274434668
+                                    "guid": "{2C665021-133A-538F-AEE3-97DE948C4D6D}",
+                                    "subId": 280367037
                                 },
-                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
-                            }
+                                "assetHint": "materialeditor/viewportmodels/quadsphere.azmodel"
+                            },
+                            "ExcludeFromReflectionCubeMaps": true,
+                            "IsRayTracingEnabled": false
                         }
                     }
                 },
