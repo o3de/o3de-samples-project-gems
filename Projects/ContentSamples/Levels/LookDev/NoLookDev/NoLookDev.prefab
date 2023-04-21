@@ -287,7 +287,7 @@
                                 },
                                 "assetHint": "reflectionprobes/reflectionprobe__df502eb2-0b5f-48b9-b5a3-2e51b29cd03f__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 242347573310723627,
+                            "EntityId": 1559409893464217548,
                             "ShowVisualization": false
                         }
                     },
@@ -378,7 +378,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 40.000003814697266,
-                            "EditorEntityId": 3441082540054300277
+                            "EditorEntityId": 8121741429986964223
                         }
                     }
                 },
@@ -1244,6 +1244,17 @@
                                                 "guid": "{89E0FCCD-9DC6-5CCC-8F34-5807903C5CF6}"
                                             },
                                             "assetHint": "materials/flat_nolookdev.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.42352938652038574,
+                                                    0.4196077883243561,
+                                                    0.30588239431381226,
+                                                    1.0
+                                                ]
+                                            }
                                         }
                                     }
                                 }
@@ -1401,7 +1412,8 @@
                     "Controller": {
                         "Configuration": {
                             "ExposureControlType": 1,
-                            "ManualCompensation": 1.0
+                            "ManualCompensation": 1.0,
+                            "EyeAdaptationExposureMax": 6.400000095367432
                         }
                     }
                 },
@@ -1411,7 +1423,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 45.0,
-                            "EditorEntityId": 14846128887196593404
+                            "EditorEntityId": 11546695172523835796
                         }
                     }
                 },
@@ -1428,7 +1440,7 @@
                     "Id": 16672989918463972593,
                     "Controller": {
                         "Configuration": {
-                            "SamplingRadius": 0.04749999940395355,
+                            "SamplingRadius": 0.11999999731779099,
                             "EnableDownsample": false
                         }
                     }
@@ -1456,7 +1468,7 @@
                         "Configuration": {
                             "Enabled": true,
                             "Threshold": 500.0,
-                            "Intensity": 0.25,
+                            "Intensity": 0.05000000074505806,
                             "BicubicEnabled": true
                         }
                     }
@@ -1483,8 +1495,8 @@
                         "Configuration": {
                             "CameraEntityId": "Entity_[674583313749]",
                             "Enabled": true,
-                            "ApertureF": 0.03999999910593033,
-                            "FNumber": 2.966625452041626,
+                            "ApertureF": 0.14000000059604645,
+                            "FNumber": 0.8546817302703857,
                             "FocusDistance": 4.0
                         }
                     }
@@ -2206,6 +2218,16 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18131411239032589407]/Transform Data/Rotate/2",
                     "value": -132.77772521972656
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2520758695725]/Components/Component_[17139591708661816843]/VisibilityFlag",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2520758695725]/Components/Component_[6236485792991965239]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
                 }
             ]
         },
@@ -2246,6 +2268,16 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2588591565604560261]/Transform Data/Rotate/2",
                     "value": 2.075672149658203
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3981047576365]/Components/Component_[14854973702051555692]/VisibilityFlag",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3981047576365]/Components/Component_[15027011428309500946]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
                 }
             ]
         },
