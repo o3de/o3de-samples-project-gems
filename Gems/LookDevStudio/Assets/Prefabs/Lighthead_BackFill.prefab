@@ -302,6 +302,7 @@
                             "InnerShutterAngleDegrees": 63.0,
                             "OuterShutterAngleDegrees": 118.80000305175781,
                             "Enable Shadow": true,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
                             "Filtering Sample Count": 64,
                             "Esm Exponent": 50.0
@@ -344,6 +345,17 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{94E3052F-2B5A-5C28-912A-C0FDC00F5CD3}"
+                                            },
+                                            "assetHint": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "general.castShadows": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "general.enableShadows": {
+                                                "$type": "bool",
+                                                "Value": false
                                             }
                                         }
                                     }
