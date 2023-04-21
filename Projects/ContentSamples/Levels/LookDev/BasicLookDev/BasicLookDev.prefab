@@ -42,6 +42,7 @@
                             "Options": {
                                 "Enable": true,
                                 "RoughnessBias": 0.07500000298023224,
+                                "RayTracing": false,
                                 "TemporalFilteringStrength": 1.7999999523162842,
                                 "MaxLuminance": 5.0
                             }
