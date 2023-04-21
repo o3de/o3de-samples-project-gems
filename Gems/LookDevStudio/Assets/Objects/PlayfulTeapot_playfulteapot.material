@@ -1,61 +1,38 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.0,
-                0.800000011920929,
-                0.800000011920929,
-                1.0
-            ],
-            "textureBlendMode": "Overlay",
-            "textureMap": "Materials/RollerPaintedMetal/roller_painted_metal_hp_basecolor.png"
-        },
-        "clearCoat": {
-            "normalMap": "Materials/RollerPaintedMetal/roller_painted_metal_normal.png",
-            "normalStrength": 0.10000000149011612,
-            "roughnessMap": "Materials/RollerPaintedMetal/roller_painted_metal_roughness.png",
-            "useRoughnessMap": false
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "irradiance": {
-            "color": [
-                0.0,
-                0.800000011920929,
-                0.800000011920929,
-                1.0
-            ]
-        },
-        "metallic": {
-            "factor": 0.10000000149011612
-        },
-        "normal": {
-            "factor": 2.0,
-            "textureMap": "Materials/RollerPaintedMetal/roller_painted_metal_normal.png"
-        },
-        "occlusion": {
-            "specularFactor": 2.0,
-            "specularTextureMap": "Materials/RollerPaintedMetal/roller_painted_metal_curvature.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "parallax": {
-            "algorithm": "ContactRefinement",
-            "factor": 0.0010000000474974514,
-            "quality": "Ultra",
-            "textureMap": "Materials/RollerPaintedMetal/roller_painted_metal_height.png"
-        },
-        "roughness": {
-            "factor": 0.0,
-            "textureMap": "Materials/RollerPaintedMetal/roller_painted_metal_roughness.png"
-        },
-        "specularF0": {
-            "enableMultiScatterCompensation": true
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.0,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Overlay",
+        "baseColor.textureMap": "../Materials/RollerPaintedMetal/roller_painted_metal_hp_basecolor.png",
+        "clearCoat.normalMap": "../Materials/RollerPaintedMetal/roller_painted_metal_normal.png",
+        "clearCoat.normalStrength": 0.10000000149011612,
+        "clearCoat.roughnessMap": "../Materials/RollerPaintedMetal/roller_painted_metal_roughness.png",
+        "clearCoat.useRoughnessMap": false,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "irradiance.manualColor": [
+            0.0,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "metallic.factor": 0.10000000149011612,
+        "normal.factor": 2.0,
+        "normal.textureMap": "../Materials/RollerPaintedMetal/roller_painted_metal_normal.png",
+        "occlusion.specularFactor": 2.0,
+        "occlusion.specularTextureMap": "../Materials/RollerPaintedMetal/roller_painted_metal_curvature.png",
+        "opacity.factor": 1.0,
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.0010000000474974513,
+        "parallax.quality": "Ultra",
+        "parallax.textureMap": "../Materials/RollerPaintedMetal/roller_painted_metal_height.png",
+        "roughness.factor": 0.0,
+        "roughness.textureMap": "../Materials/RollerPaintedMetal/roller_painted_metal_roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

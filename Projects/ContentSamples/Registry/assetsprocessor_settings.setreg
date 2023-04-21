@@ -1,0 +1,28 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "RC cgf": {
+                    "ignore": true
+                },
+                "RC fbx": {
+                    "ignore": true
+                },
+                "ScanFolder MultiplayerSampleData": {
+                    "watch": "@GEMROOT:Atom@/TestData",
+                    "recursive": 1,
+                    "order": 1000
+                },
+                "Exclude Work In Progress Folders": {
+                    "pattern": ".*\\\\/WIP\\\\/.*"
+                },
+                "Exclude art source Folders": {
+                    "pattern": ".*\\\\/.source\\\\/.*"
+                },
+                "Exclude readme_media Folders": {
+                    "pattern": ".*\\\\/readme_media\\\\/.*"
+                }
+            }
+        }
+    }
+}

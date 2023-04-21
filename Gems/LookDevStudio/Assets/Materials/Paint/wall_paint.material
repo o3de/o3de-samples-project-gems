@@ -1,30 +1,27 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.0,
-            "useTexture": false
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352941632270813,
+            0.41960784792900085,
+            0.30588236451148987,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.useTexture": false,
+        "normal.textureMap": "paint_satin_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.0,
+        "roughness.textureMap": "paint_satin_roughness.png"
     }
 }

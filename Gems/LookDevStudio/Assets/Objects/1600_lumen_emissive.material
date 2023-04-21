@@ -15,7 +15,8 @@
             1.0
         ],
         "emissive.enable": true,
-        "emissive.intensity": 13.800000190734863,
+        "emissive.intensity": 14.340864181518555,
+        "irradiance.irradianceColorSource": "BaseColor",
         "irradiance.manualColor": [
             1.0,
             0.7764706015586853,
