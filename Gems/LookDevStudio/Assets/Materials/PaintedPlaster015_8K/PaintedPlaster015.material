@@ -1,30 +1,15 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "properties": {
-        "occlusion": {
-            "diffuseFactor": 0.30000001192092898,
-            "diffuseTextureMap": "Materials/PaintedPlaster015_8K/PaintedPlaster015_8K_AmbientOcclusion.png"
-        },
-        "baseColor": {
-            "textureMap": "Materials/PaintedPlaster015_8K/PaintedPlaster015_8K_BaseColor.png"
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "normal": {
-            "textureMap": "Materials/PaintedPlaster015_8K/PaintedPlaster015_8K_Normal.png"
-        },
-        "parallax": {
-            "algorithm": "ContactRefinement",
-            "factor": 0.009999999776482582,
-            "pdo": true,
-            "quality": "Ultra",
-            "textureMap": "Materials/PaintedPlaster015_8K/PaintedPlaster015_8K_Displacement.png"
-        },
-        "roughness": {
-            "textureMap": "Materials/PaintedPlaster015_8K/PaintedPlaster015_8K_Roughness.png"
-        }
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "PaintedPlaster015_8K_BaseColor.png",
+        "normal.textureMap": "PaintedPlaster015_8K_Normal.png",
+        "occlusion.diffuseFactor": 0.30000001192092896,
+        "occlusion.diffuseTextureMap": "PaintedPlaster015_8K_AmbientOcclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.009999999776482582,
+        "parallax.quality": "Ultra",
+        "parallax.textureMap": "PaintedPlaster015_8K_Displacement.png",
+        "roughness.textureMap": "PaintedPlaster015_8K_Roughness.png"
     }
 }

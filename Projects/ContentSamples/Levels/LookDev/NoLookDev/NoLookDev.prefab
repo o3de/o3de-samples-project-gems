@@ -2228,6 +2228,16 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[2520758695725]/Components/Component_[6236485792991965239]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
                     "value": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2516463728429]/Components/Component_[9958029334572312554]/Controller/Configuration/Shadow Bias",
+                    "value": 0.30000001192092896
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2516463728429]/Components/Component_[9958029334572312554]/Controller/Configuration/Normal Shadow Bias",
+                    "value": 0.05000000074505806
                 }
             ]
         },
@@ -2278,6 +2288,16 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[3981047576365]/Components/Component_[15027011428309500946]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
                     "value": "materials/presets/macbeth/19_white_9-5_0-05d.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3976752609069]/Components/Component_[9958029334572312554]/Controller/Configuration/Shadow Bias",
+                    "value": 0.30000001192092896
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3976752609069]/Components/Component_[9958029334572312554]/Controller/Configuration/Normal Shadow Bias",
+                    "value": 0.05000000074505806
                 }
             ]
         },
@@ -2318,6 +2338,16 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[7052912272659]/Components/Component_[6134113209638500998]/VisibilityFlag",
                     "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7048617305363]/Components/Component_[9958029334572312554]/Controller/Configuration/Shadow Bias",
+                    "value": 0.30000001192092896
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7048617305363]/Components/Component_[9958029334572312554]/Controller/Configuration/Normal Shadow Bias",
+                    "value": 0.05000000074505806
                 }
             ]
         }
