@@ -2,12 +2,6 @@
     "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.color": [
-            0.42352941632270813,
-            0.41960784792900085,
-            0.30588236451148987,
-            1.0
-        ],
         "baseColor.textureBlendMode": "LinearLight",
         "baseColor.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_HP_BaseColor.png",
         "irradiance.irradianceColorSource": "BaseColor",
@@ -20,6 +14,7 @@
         "parallax.factor": 0.029999999329447746,
         "parallax.quality": "High",
         "parallax.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Displacement.png",
-        "roughness.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Roughness.png"
+        "roughness.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Roughness.png",
+        "roughness.upperBound": 0.25
     }
 }

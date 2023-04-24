@@ -3,12 +3,23 @@
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
-            0.8199999928474426,
-            0.8199999928474426,
-            0.8199999928474426,
+            0.42352941632270813,
+            0.41960784792900085,
+            0.30588236451148987,
             1.0
         ],
-        "baseColor.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_BaseColor.png",
-        "opacity.factor": 1.0
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_HP_BaseColor.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.10000000149011612,
+        "normal.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Normal.png",
+        "occlusion.diffuseTextureMap": "../Materials/Bricks038_8K/Bricks038_8K_AmbientOcclusion.png",
+        "occlusion.specularTextureMap": "../Materials/Bricks038_8K/Bricks038_8K_AmbientOcclusion.png",
+        "opacity.factor": 1.0,
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.029999999329447746,
+        "parallax.quality": "High",
+        "parallax.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Displacement.png",
+        "roughness.textureMap": "../Materials/Bricks038_8K/Bricks038_8K_Roughness.png"
     }
 }

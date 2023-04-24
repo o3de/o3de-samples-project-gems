@@ -8,20 +8,20 @@
             0.25032418966293335,
             1.0
         ],
-        "baseColor.factor": 0.30000001192092896,
-        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Concrete016_8K_BaseColor.png",
         "clearCoat.enable": true,
+        "clearCoat.factor": 0.75,
         "clearCoat.normalMap": "roller_painted_metal_normal.tif",
-        "clearCoat.roughness": 0.18181820213794708,
+        "clearCoat.normalStrength": 0.5,
+        "clearCoat.roughness": 0.27000001072883606,
         "irradiance.irradianceColorSource": "BaseColor",
         "normal.factor": 0.6499999761581421,
         "normal.textureMap": "Concrete016_8K_Normal.png",
         "parallax.algorithm": "ContactRefinement",
-        "parallax.factor": 0.019999999552965164,
-        "parallax.quality": "Ultra",
+        "parallax.factor": 0.009999999776482582,
+        "parallax.quality": "High",
         "parallax.textureMap": "Concrete016_8K_Displacement.png",
-        "parallax.useTexture": false,
         "roughness.textureMap": "Concrete016_8K_Roughness.png"
     }
 }
