@@ -8,7 +8,7 @@
                 "Id": 10448689296255605847,
                 "Controller": {
                     "Configuration": {
-                        "QualityLevel": 1
+                        "QualityLevel": 2
                     }
                 }
             },
@@ -40,7 +40,9 @@
                     "Configuration": {
                         "SSR": {
                             "Options": {
+                                "Enable": true,
                                 "RoughnessBias": 0.07500000298023224,
+                                "HalfResolution": false,
                                 "TemporalFilteringStrength": 1.7999999523162842,
                                 "MaxLuminance": 5.0
                             }
@@ -1012,62 +1014,7 @@
                 },
                 "Component_[16289306621160625436]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 16289306621160625436,
-                    "DisabledComponents": [
-                        {
-                            "$type": "AZ::Render::EditorDiffuseProbeGridComponent",
-                            "Id": 4884358045600169272,
-                            "Controller": {
-                                "Configuration": {
-                                    "ProbeSpacing": [
-                                        0.4000000059604645,
-                                        0.4000000059604645,
-                                        0.4000000059604645
-                                    ],
-                                    "Extents": [
-                                        8.0,
-                                        8.283607482910156,
-                                        6.323991298675537
-                                    ],
-                                    "NumRaysPerProbe": 5,
-                                    "EmissiveMultiplier": 3.0,
-                                    "RuntimeMode": 2,
-                                    "BakedIrradianceTextureRelativePath": "DiffuseProbeGrids/GI_box_C442A0A3-C22D-4FA7-8924-BDBBE8D78E00_Irradiance_lutrgba16f.dds",
-                                    "BakedDistanceTextureRelativePath": "DiffuseProbeGrids/GI_box_100A1F0F-EF7A-4A40-BFA7-1B289E721223_Distance_lutrg32f.dds",
-                                    "BakedProbeDataTextureRelativePath": "DiffuseProbeGrids/GI_box_7F960A75-66F0-4A75-8FC8-8F5D2AE1E3AD_ProbeData_lutrgba16f.dds",
-                                    "BakedIrradianceTextureAsset": {
-                                        "assetId": {
-                                            "guid": "{A2F567BC-BA12-54D6-872B-6423C4F57E6E}",
-                                            "subId": 1000
-                                        },
-                                        "assetHint": "diffuseprobegrids/gi_box_c442a0a3-c22d-4fa7-8924-bdbbe8d78e00_irradiance_lutrgba16f.dds.streamingimage"
-                                    },
-                                    "BakedDistanceTextureAsset": {
-                                        "assetId": {
-                                            "guid": "{AA40F1D0-2B1B-569F-8C61-F1B348209CD2}",
-                                            "subId": 1000
-                                        },
-                                        "assetHint": "diffuseprobegrids/gi_box_100a1f0f-ef7a-4a40-bfa7-1b289e721223_distance_lutrg32f.dds.streamingimage"
-                                    },
-                                    "BakedProbeDataTextureAsset": {
-                                        "assetId": {
-                                            "guid": "{6F4DD332-CC72-5131-B2A6-6230B73196A0}",
-                                            "subId": 1000
-                                        },
-                                        "assetHint": "diffuseprobegrids/gi_box_7f960a75-66f0-4a75-8fc8-8f5d2ae1e3ad_probedata_lutrgba16f.dds.streamingimage"
-                                    },
-                                    "VisualizationSphereRadius": 0.25
-                                }
-                            },
-                            "probeSpacingX": 0.4000000059604645,
-                            "probeSpacingY": 0.4000000059604645,
-                            "probeSpacingZ": 0.4000000059604645,
-                            "numRaysPerProbe": 5,
-                            "emissiveMultiplier": 3.0,
-                            "runtimeMode": 2,
-                            "visualizationSphereRadius": 0.25
-                        }
-                    ]
+                    "Id": 16289306621160625436
                 },
                 "Component_[16538317296488523462]": {
                     "$type": "EditorEntityIconComponent",
@@ -1087,6 +1034,59 @@
                 "Component_[362662815156531928]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 362662815156531928
+                },
+                "Component_[4884358045600169272]": {
+                    "$type": "AZ::Render::EditorDiffuseProbeGridComponent",
+                    "Id": 4884358045600169272,
+                    "Controller": {
+                        "Configuration": {
+                            "ProbeSpacing": [
+                                0.4000000059604645,
+                                0.4000000059604645,
+                                0.4000000059604645
+                            ],
+                            "Extents": [
+                                8.685144424438477,
+                                8.51500129699707,
+                                6.461613655090332
+                            ],
+                            "NumRaysPerProbe": 5,
+                            "EmissiveMultiplier": 3.0,
+                            "RuntimeMode": 2,
+                            "BakedIrradianceTextureRelativePath": "DiffuseProbeGrids/GI_box_C442A0A3-C22D-4FA7-8924-BDBBE8D78E00_Irradiance_lutrgba16f.dds",
+                            "BakedDistanceTextureRelativePath": "DiffuseProbeGrids/GI_box_100A1F0F-EF7A-4A40-BFA7-1B289E721223_Distance_lutrg32f.dds",
+                            "BakedProbeDataTextureRelativePath": "DiffuseProbeGrids/GI_box_7F960A75-66F0-4A75-8FC8-8F5D2AE1E3AD_ProbeData_lutrgba16f.dds",
+                            "BakedIrradianceTextureAsset": {
+                                "assetId": {
+                                    "guid": "{A2F567BC-BA12-54D6-872B-6423C4F57E6E}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "diffuseprobegrids/gi_box_c442a0a3-c22d-4fa7-8924-bdbbe8d78e00_irradiance_lutrgba16f.dds.streamingimage"
+                            },
+                            "BakedDistanceTextureAsset": {
+                                "assetId": {
+                                    "guid": "{AA40F1D0-2B1B-569F-8C61-F1B348209CD2}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "diffuseprobegrids/gi_box_100a1f0f-ef7a-4a40-bfa7-1b289e721223_distance_lutrg32f.dds.streamingimage"
+                            },
+                            "BakedProbeDataTextureAsset": {
+                                "assetId": {
+                                    "guid": "{6F4DD332-CC72-5131-B2A6-6230B73196A0}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "diffuseprobegrids/gi_box_7f960a75-66f0-4a75-8fc8-8f5d2ae1e3ad_probedata_lutrgba16f.dds.streamingimage"
+                            },
+                            "VisualizationSphereRadius": 0.25
+                        }
+                    },
+                    "probeSpacingX": 0.4000000059604645,
+                    "probeSpacingY": 0.4000000059604645,
+                    "probeSpacingZ": 0.4000000059604645,
+                    "numRaysPerProbe": 5,
+                    "emissiveMultiplier": 3.0,
+                    "runtimeMode": 2,
+                    "visualizationSphereRadius": 0.25
                 },
                 "Component_[6054730252862354961]": {
                     "$type": "EditorPendingCompositionComponent",
