@@ -1,0 +1,40 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352938652038574,
+            0.4196077883243561,
+            0.30588239431381226,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "PhotoGrayFabric_hp_basecolor.jpg",
+        "clearCoat.enable": true,
+        "clearCoat.factor": 0.25,
+        "clearCoat.normalMap": "PhotoGrayFabric_normal.jpg",
+        "clearCoat.normalStrength": 0.25,
+        "clearCoat.roughness": 0.2800000011920929,
+        "clearCoat.roughnessMap": "PhotoGrayFabric_roughness.png",
+        "clearCoat.useInfluenceMap": false,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "irradiance.manualColor": [
+            0.6239566802978516,
+            0.5457236766815186,
+            0.48514530062675476,
+            1.0
+        ],
+        "normal.textureMap": "PhotoGrayFabric_normal.jpg",
+        "occlusion.diffuseTextureMap": "PhotoGrayFabric_ao.png",
+        "occlusion.specularTextureMap": "PhotoGrayFabric_spec_occlusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.004999999888241291,
+        "parallax.quality": "High",
+        "parallax.textureMap": "PhotoGrayFabric_height.png",
+        "roughness.textureMap": "PhotoGrayFabric_roughness.png",
+        "specularF0.enableMultiScatterCompensation": true,
+        "uv.rotateDegrees": -4.0,
+        "uv.tileU": 3.0,
+        "uv.tileV": 3.0
+    }
+}

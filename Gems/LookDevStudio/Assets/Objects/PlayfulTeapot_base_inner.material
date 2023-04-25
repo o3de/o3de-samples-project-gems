@@ -1,0 +1,17 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            1.0
+        ],
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 1.0,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.25,
+        "specularF0.enableMultiScatterCompensation": true
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352941632270813,
+            0.41960784792900085,
+            0.30588236451148987,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "PhotoGrayFabric_hp_basecolor.jpg",
+        "emissive.intensity": 20.0,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.10000000149011612,
+        "normal.factor": 1.5353535413742065,
+        "normal.textureMap": "PhotoGrayFabric_normal.jpg",
+        "roughness.factor": 0.8500000238418579,
+        "uv.tileU": 1.5,
+        "uv.tileV": 1.5
+    }
+}

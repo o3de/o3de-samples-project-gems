@@ -1,0 +1,28 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "emissive.color": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 14.340864181518555,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "irradiance.manualColor": [
+            1.0,
+            0.7764706015586853,
+            0.615686297416687,
+            1.0
+        ],
+        "opacity.factor": 1.0
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352941632270813,
+            0.41960784792900085,
+            0.30588236451148987,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "Fabric030_4K_HP_BaseColor.png",
+        "clearCoat.enable": true,
+        "clearCoat.normalMap": "Fabric030_4K_Normal.png",
+        "clearCoat.normalStrength": 0.10000000149011612,
+        "clearCoat.roughness": 0.6000000238418579,
+        "clearCoat.roughnessMap": "Fabric030_4K_Roughness.png",
+        "clearCoat.useInfluenceMap": false,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "irradiance.manualColor": [
+            0.6239566802978516,
+            0.5457236766815186,
+            0.48514533042907715,
+            1.0
+        ],
+        "metallic.factor": 0.20000000298023224,
+        "normal.factor": 0.5,
+        "normal.textureMap": "Fabric030_4K_Normal.png",
+        "occlusion.diffuseTextureMap": "Fabric030_4K_AmbientOcclusion.png",
+        "occlusion.specularTextureMap": "Fabric030_4K_AmbientOcclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.004999999888241291,
+        "parallax.quality": "Ultra",
+        "parallax.textureMap": "Fabric030_4K_Displacement.png",
+        "roughness.textureMap": "Fabric030_4K_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
+    }
+}

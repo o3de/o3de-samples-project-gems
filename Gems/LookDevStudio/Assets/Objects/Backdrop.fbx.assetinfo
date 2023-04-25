@@ -1,0 +1,57 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{FE63FA85-D747-56EF-831A-DD9C586F7FE2}",
+            "name": "Backdrop",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.LookDevStudio",
+                    "RootNode.LookDevStudio.Backdrop1",
+                    "RootNode.LookDevStudio.Backdrop1.rod_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.rod_1_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.rod_2_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.front",
+                    "RootNode.LookDevStudio.Backdrop1.back"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Backdrop",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.LookDevStudio",
+                    "RootNode.LookDevStudio.Backdrop1",
+                    "RootNode.LookDevStudio.Backdrop1.rod_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.rod_1_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.rod_2_Msh",
+                    "RootNode.LookDevStudio.Backdrop1.front",
+                    "RootNode.LookDevStudio.Backdrop1.back"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule"
+                    }
+                ]
+            },
+            "id": "{D86D4C9A-D133-5AEC-BAA5-FD1B76D93B03}"
+        }
+    ]
+}
