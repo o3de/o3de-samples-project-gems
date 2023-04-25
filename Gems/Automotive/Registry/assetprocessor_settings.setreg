@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder Automotive/Assets": {
+                    "watch": "@GEMROOT:Automotive@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder Automotive/Registry": {
+                    "watch": "@GEMROOT:Automotive@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
