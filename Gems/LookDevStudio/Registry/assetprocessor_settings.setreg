@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder LookDevStudio/Assets": {
+                    "watch": "@GEMROOT:LookDevStudio@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder LookDevStudio/Registry": {
+                    "watch": "@GEMROOT:LookDevStudio@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

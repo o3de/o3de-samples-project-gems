@@ -1,0 +1,15 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "PaintedPlaster015_8K_BaseColor.png",
+        "normal.textureMap": "PaintedPlaster015_8K_Normal.png",
+        "occlusion.diffuseFactor": 0.30000001192092896,
+        "occlusion.diffuseTextureMap": "PaintedPlaster015_8K_AmbientOcclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.009999999776482582,
+        "parallax.quality": "Ultra",
+        "parallax.textureMap": "PaintedPlaster015_8K_Displacement.png",
+        "roughness.textureMap": "PaintedPlaster015_8K_Roughness.png"
+    }
+}

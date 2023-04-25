@@ -1,0 +1,25 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.42352938652038574,
+            0.4196077883243561,
+            0.30588239431381226,
+            1.0
+        ],
+        "baseColor.factor": 0.05000000074505806,
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "@gemroot:MaterialEditor@/Assets/MaterialEditor/ViewportModels/_dev_shaderball_00_basecolor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "irradiance.irradianceColorSource": "BaseColor",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.800000011920929,
+        "uv.scale": 0.800000011920929
+    }
+}
